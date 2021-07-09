@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="railroad-diagram" width="1061" height="109" viewBox="0 0 1061 109">
+<defs>
+<style type="text/css"><![CDATA[
+path {
+stroke-width: 3;
+stroke: black;
+fill: rgba(0,0,0,0);
+}
+text {
+font: bold 14px monospace;
+text-anchor: middle;
+}
+text.diagram-text {
+font-size: 12px;
+}
+a {
+fill: blue;
+}
+text.diagram-arrow {
+font-size: 16px;
+}
+text.label {
+text-anchor: start;
+}
+text.comment {
+font: italic 12px monospace;
+}
+rect {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+}
+path.diagram-text {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+cursor: help;
+}
+]]></style>
+</defs>
+<g transform="translate(.5 .5)">
+<g>
+<path d="M20 38v20m10 -20v20m-10 -10h20"></path>
+</g>
+<path d="M40 48h10"></path>
+<g>
+<path d="M50 48h0"></path>
+<path d="M1011 48h0"></path>
+<g>
+<path d="M50 48h0"></path>
+<path d="M123 48h0"></path>
+<text x="86.5" y="53" class="comment">not Cloud</text>
+</g>
+<path d="M123 48h10"></path>
+<path d="M133 48h10"></path>
+<g>
+<path d="M143 48h0"></path>
+<path d="M1011 48h0"></path>
+<g class="terminal">
+<path d="M143 48h0"></path>
+<path d="M350 48h0"></path>
+<rect x="143" y="37" width="207" height="22" rx="10" ry="10"></rect>
+<text x="246.5" y="52">"ASSIGN LOCAL COPY OF"</text>
+</g>
+<path d="M350 48h10"></path>
+<g>
+<path d="M360 48h0"></path>
+<path d="M643 48h0"></path>
+<path d="M360 48a10 10 0 0 0 10 -10v-8a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M380 20h243"></path>
+</g>
+<path d="M623 20a10 10 0 0 1 10 10v8a10 10 0 0 0 10 10"></path>
+<path d="M360 48h20"></path>
+<g>
+<path d="M380 48h0"></path>
+<path d="M623 48h0"></path>
+<g class="terminal">
+<path d="M380 48h0"></path>
+<path d="M476.5 48h0"></path>
+<rect x="380" y="37" width="96.5" height="22" rx="10" ry="10"></rect>
+<text x="428.25" y="52">"INITIAL"</text>
+</g>
+<path d="M476.5 48h10"></path>
+<g>
+<path d="M486.5 48h0"></path>
+<path d="M623 48h0"></path>
+<path d="M486.5 48a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M506.5 28h96.5"></path>
+</g>
+<path d="M603 28a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M486.5 48h20"></path>
+<g class="terminal">
+<path d="M506.5 48h0"></path>
+<path d="M603 48h0"></path>
+<rect x="506.5" y="37" width="96.5" height="22" rx="10" ry="10"></rect>
+<text x="554.75" y="52">"LINE OF"</text>
+</g>
+<path d="M603 48h20"></path>
+</g>
+</g>
+<path d="M623 48h20"></path>
+</g>
+<g>
+<path d="M643 48h0"></path>
+<path d="M762.5 48h0"></path>
+<path d="M643 48h20"></path>
+<g class="non-terminal">
+<path d="M663 48h0"></path>
+<path d="M734 48h8.5"></path>
+<rect x="663" y="37" width="71" height="22"></rect>
+<a xlink:href="#/expression/Source"><text x="698.5" y="52">Source</text>
+</a>
+</g>
+<path d="M742.5 48h20"></path>
+<path d="M643 48a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10"></path>
+<g class="non-terminal">
+<path d="M663 78h0"></path>
+<path d="M742.5 78h0"></path>
+<rect x="663" y="67" width="79.5" height="22"></rect>
+<a xlink:href="#/expression/Dynamic"><text x="702.75" y="82">Dynamic</text>
+</a>
+</g>
+<path d="M742.5 78a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10"></path>
+</g>
+<path d="M762.5 48h10"></path>
+<g class="terminal">
+<path d="M772.5 48h0"></path>
+<path d="M826.5 48h0"></path>
+<rect x="772.5" y="37" width="54" height="22" rx="10" ry="10"></rect>
+<text x="799.5" y="52">"TO"</text>
+</g>
+<path d="M826.5 48h10"></path>
+<path d="M836.5 48h10"></path>
+<g class="non-terminal">
+<path d="M846.5 48h0"></path>
+<path d="M1011 48h0"></path>
+<rect x="846.5" y="37" width="164.5" height="22"></rect>
+<a xlink:href="#/expression/TargetFieldSymbol"><text x="928.75" y="52">TargetFieldSymbol</text>
+</a>
+</g>
+</g>
+</g>
+<path d="M1011 48h10"></path>
+<path d="M 1021 48 h 20 m -10 -10 v 20 m 10 -20 v 20"></path>
+</g>
+</svg>

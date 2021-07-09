@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="railroad-diagram" width="553.5" height="80" viewBox="0 0 553.5 80">
+<defs>
+<style type="text/css"><![CDATA[
+path {
+stroke-width: 3;
+stroke: black;
+fill: rgba(0,0,0,0);
+}
+text {
+font: bold 14px monospace;
+text-anchor: middle;
+}
+text.diagram-text {
+font-size: 12px;
+}
+a {
+fill: blue;
+}
+text.diagram-arrow {
+font-size: 16px;
+}
+text.label {
+text-anchor: start;
+}
+text.comment {
+font: italic 12px monospace;
+}
+rect {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+}
+path.diagram-text {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+cursor: help;
+}
+]]></style>
+</defs>
+<g transform="translate(.5 .5)">
+<g>
+<path d="M20 30v20m10 -20v20m-10 -10h20"></path>
+</g>
+<path d="M40 40h10"></path>
+<g>
+<path d="M50 40h0"></path>
+<path d="M503.5 40h0"></path>
+<g>
+<path d="M50 40h0"></path>
+<path d="M206.5 40h0"></path>
+<path d="M50 40a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M70 20h116.5"></path>
+</g>
+<path d="M186.5 20a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M50 40h20"></path>
+<g>
+<path d="M70 40h0"></path>
+<path d="M186.5 40h0"></path>
+<path d="M70 40h10"></path>
+<g class="terminal">
+<path d="M80 40h0"></path>
+<path d="M176.5 40h0"></path>
+<rect x="80" y="29" width="96.5" height="22" rx="10" ry="10"></rect>
+<a xlink:href="#/statement/TypePools"><text x="128.25" y="44">TypePools</text>
+</a>
+</g>
+<path d="M176.5 40h10"></path>
+<path d="M80 40a10 10 0 0 0 -10 10v0a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M80 60h96.5"></path>
+</g>
+<path d="M176.5 60a10 10 0 0 0 10 -10v0a10 10 0 0 0 -10 -10"></path>
+</g>
+<path d="M186.5 40h20"></path>
+</g>
+<g>
+<path d="M206.5 40h0"></path>
+<path d="M397 40h0"></path>
+<path d="M206.5 40a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M226.5 20h150.5"></path>
+</g>
+<path d="M377 20a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M206.5 40h20"></path>
+<g>
+<path d="M226.5 40h0"></path>
+<path d="M377 40h0"></path>
+<path d="M226.5 40h10"></path>
+<g class="terminal">
+<path d="M236.5 40h0"></path>
+<path d="M367 40h0"></path>
+<rect x="236.5" y="29" width="130.5" height="22" rx="10" ry="10"></rect>
+<a xlink:href="#/statement/InterfaceLoad"><text x="301.75" y="44">InterfaceLoad</text>
+</a>
+</g>
+<path d="M367 40h10"></path>
+<path d="M236.5 40a10 10 0 0 0 -10 10v0a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M236.5 60h130.5"></path>
+</g>
+<path d="M367 60a10 10 0 0 0 10 -10v0a10 10 0 0 0 -10 -10"></path>
+</g>
+<path d="M377 40h20"></path>
+</g>
+<path d="M397 40h10"></path>
+<g class="non-terminal">
+<path d="M407 40h0"></path>
+<path d="M503.5 40h0"></path>
+<rect x="407" y="29" width="96.5" height="22"></rect>
+<a xlink:href="#/structure/Interface"><text x="455.25" y="44">Interface</text>
+</a>
+</g>
+</g>
+<path d="M503.5 40h10"></path>
+<path d="M 513.5 40 h 20 m -10 -10 v 20 m 10 -20 v 20"></path>
+</g>
+</svg>

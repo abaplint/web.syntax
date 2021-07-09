@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="railroad-diagram" width="910.5" height="71" viewBox="0 0 910.5 71">
+<defs>
+<style type="text/css"><![CDATA[
+path {
+stroke-width: 3;
+stroke: black;
+fill: rgba(0,0,0,0);
+}
+text {
+font: bold 14px monospace;
+text-anchor: middle;
+}
+text.diagram-text {
+font-size: 12px;
+}
+a {
+fill: blue;
+}
+text.diagram-arrow {
+font-size: 16px;
+}
+text.label {
+text-anchor: start;
+}
+text.comment {
+font: italic 12px monospace;
+}
+rect {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+}
+path.diagram-text {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+cursor: help;
+}
+]]></style>
+</defs>
+<g transform="translate(.5 .5)">
+<g>
+<path d="M20 30v20m10 -20v20m-10 -10h20"></path>
+</g>
+<path d="M40 40h10"></path>
+<g>
+<path d="M50 40h0"></path>
+<path d="M860.5 40h0"></path>
+<g>
+<path d="M50 40h0"></path>
+<path d="M123 40h0"></path>
+<text x="86.5" y="45" class="comment">not Cloud</text>
+</g>
+<path d="M123 40h10"></path>
+<path d="M133 40h10"></path>
+<g>
+<path d="M143 40h0"></path>
+<path d="M860.5 40h0"></path>
+<g class="terminal">
+<path d="M143 40h0"></path>
+<path d="M333 40h0"></path>
+<rect x="143" y="29" width="190" height="22" rx="10" ry="10"></rect>
+<text x="238" y="44">"WINDOW STARTING AT"</text>
+</g>
+<path d="M333 40h10"></path>
+<path d="M343 40h10"></path>
+<g class="non-terminal">
+<path d="M353 40h0"></path>
+<path d="M424 40h0"></path>
+<rect x="353" y="29" width="71" height="22"></rect>
+<a xlink:href="#/expression/Source"><text x="388.5" y="44">Source</text>
+</a>
+</g>
+<path d="M424 40h10"></path>
+<path d="M434 40h10"></path>
+<g class="non-terminal">
+<path d="M444 40h0"></path>
+<path d="M515 40h0"></path>
+<rect x="444" y="29" width="71" height="22"></rect>
+<a xlink:href="#/expression/Source"><text x="479.5" y="44">Source</text>
+</a>
+</g>
+<path d="M515 40h10"></path>
+<g>
+<path d="M525 40h0"></path>
+<path d="M860.5 40h0"></path>
+<path d="M525 40a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M545 20h295.5"></path>
+</g>
+<path d="M840.5 20a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M525 40h20"></path>
+<g>
+<path d="M545 40h0"></path>
+<path d="M840.5 40h0"></path>
+<g class="terminal">
+<path d="M545 40h0"></path>
+<path d="M658.5 40h0"></path>
+<rect x="545" y="29" width="113.5" height="22" rx="10" ry="10"></rect>
+<text x="601.75" y="44">"ENDING AT"</text>
+</g>
+<path d="M658.5 40h10"></path>
+<path d="M668.5 40h10"></path>
+<g class="non-terminal">
+<path d="M678.5 40h0"></path>
+<path d="M749.5 40h0"></path>
+<rect x="678.5" y="29" width="71" height="22"></rect>
+<a xlink:href="#/expression/Source"><text x="714" y="44">Source</text>
+</a>
+</g>
+<path d="M749.5 40h10"></path>
+<path d="M759.5 40h10"></path>
+<g class="non-terminal">
+<path d="M769.5 40h0"></path>
+<path d="M840.5 40h0"></path>
+<rect x="769.5" y="29" width="71" height="22"></rect>
+<a xlink:href="#/expression/Source"><text x="805" y="44">Source</text>
+</a>
+</g>
+</g>
+<path d="M840.5 40h20"></path>
+</g>
+</g>
+</g>
+<path d="M860.5 40h10"></path>
+<path d="M 870.5 40 h 20 m -10 -10 v 20 m 10 -20 v 20"></path>
+</g>
+</svg>

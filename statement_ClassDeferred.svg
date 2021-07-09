@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="railroad-diagram" width="701" height="71" viewBox="0 0 701 71">
+<defs>
+<style type="text/css"><![CDATA[
+path {
+stroke-width: 3;
+stroke: black;
+fill: rgba(0,0,0,0);
+}
+text {
+font: bold 14px monospace;
+text-anchor: middle;
+}
+text.diagram-text {
+font-size: 12px;
+}
+a {
+fill: blue;
+}
+text.diagram-arrow {
+font-size: 16px;
+}
+text.label {
+text-anchor: start;
+}
+text.comment {
+font: italic 12px monospace;
+}
+rect {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+}
+path.diagram-text {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+cursor: help;
+}
+]]></style>
+</defs>
+<g transform="translate(.5 .5)">
+<g>
+<path d="M20 30v20m10 -20v20m-10 -10h20"></path>
+</g>
+<path d="M40 40h10"></path>
+<g>
+<path d="M50 40h0"></path>
+<path d="M651 40h0"></path>
+<g class="terminal">
+<path d="M50 40h0"></path>
+<path d="M129.5 40h0"></path>
+<rect x="50" y="29" width="79.5" height="22" rx="10" ry="10"></rect>
+<text x="89.75" y="44">"CLASS"</text>
+</g>
+<path d="M129.5 40h10"></path>
+<path d="M139.5 40h10"></path>
+<g class="non-terminal">
+<path d="M149.5 40h0"></path>
+<path d="M246 40h0"></path>
+<rect x="149.5" y="29" width="96.5" height="22"></rect>
+<a xlink:href="#/expression/ClassName"><text x="197.75" y="44">ClassName</text>
+</a>
+</g>
+<path d="M246 40h10"></path>
+<path d="M256 40h10"></path>
+<g class="terminal">
+<path d="M266 40h0"></path>
+<path d="M388 40h0"></path>
+<rect x="266" y="29" width="122" height="22" rx="10" ry="10"></rect>
+<text x="327" y="44">"DEFINITION"</text>
+</g>
+<path d="M388 40h10"></path>
+<path d="M398 40h10"></path>
+<g>
+<path d="M408 40h0"></path>
+<path d="M651 40h0"></path>
+<g class="terminal">
+<path d="M408 40h0"></path>
+<path d="M513 40h0"></path>
+<rect x="408" y="29" width="105" height="22" rx="10" ry="10"></rect>
+<text x="460.5" y="44">"DEFERRED"</text>
+</g>
+<path d="M513 40h10"></path>
+<g>
+<path d="M523 40h0"></path>
+<path d="M651 40h0"></path>
+<path d="M523 40a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M543 20h88"></path>
+</g>
+<path d="M631 20a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M523 40h20"></path>
+<g class="terminal">
+<path d="M543 40h0"></path>
+<path d="M631 40h0"></path>
+<rect x="543" y="29" width="88" height="22" rx="10" ry="10"></rect>
+<text x="587" y="44">"PUBLIC"</text>
+</g>
+<path d="M631 40h20"></path>
+</g>
+</g>
+</g>
+<path d="M651 40h10"></path>
+<path d="M 661 40 h 20 m -10 -10 v 20 m 10 -20 v 20"></path>
+</g>
+</svg>

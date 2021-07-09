@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="railroad-diagram" width="1066" height="118" viewBox="0 0 1066 118">
+<defs>
+<style type="text/css"><![CDATA[
+path {
+stroke-width: 3;
+stroke: black;
+fill: rgba(0,0,0,0);
+}
+text {
+font: bold 14px monospace;
+text-anchor: middle;
+}
+text.diagram-text {
+font-size: 12px;
+}
+a {
+fill: blue;
+}
+text.diagram-arrow {
+font-size: 16px;
+}
+text.label {
+text-anchor: start;
+}
+text.comment {
+font: italic 12px monospace;
+}
+rect {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+}
+path.diagram-text {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+cursor: help;
+}
+]]></style>
+</defs>
+<g transform="translate(.5 .5)">
+<g>
+<path d="M20 38v20m10 -20v20m-10 -10h20"></path>
+</g>
+<path d="M40 48h10"></path>
+<g>
+<path d="M50 48h0"></path>
+<path d="M1016 48h0"></path>
+<g class="terminal">
+<path d="M50 48h0"></path>
+<path d="M104 48h0"></path>
+<rect x="50" y="37" width="54" height="22" rx="10" ry="10"></rect>
+<text x="77" y="52">"DO"</text>
+</g>
+<path d="M104 48h10"></path>
+<g>
+<path d="M114 48h0"></path>
+<path d="M1016 48h0"></path>
+<path d="M114 48a10 10 0 0 0 10 -10v-8a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M134 20h862"></path>
+</g>
+<path d="M996 20a10 10 0 0 1 10 10v8a10 10 0 0 0 10 10"></path>
+<path d="M114 48h20"></path>
+<g>
+<path d="M134 48h0"></path>
+<path d="M996 48h0"></path>
+<path d="M164 48h10"></path>
+<g>
+<path d="M174 48h0"></path>
+<path d="M966 48h0"></path>
+<path d="M174 48h10"></path>
+<g>
+<path d="M184 48h0"></path>
+<path d="M956 48h0"></path>
+<g class="terminal">
+<path d="M184 48h0"></path>
+<path d="M280.5 48h0"></path>
+<rect x="184" y="37" width="96.5" height="22" rx="10" ry="10"></rect>
+<text x="232.25" y="52">"VARYING"</text>
+</g>
+<path d="M280.5 48h10"></path>
+<path d="M290.5 48h10"></path>
+<g class="non-terminal">
+<path d="M300.5 48h0"></path>
+<path d="M371.5 48h0"></path>
+<rect x="300.5" y="37" width="71" height="22"></rect>
+<a xlink:href="#/expression/Target"><text x="336" y="52">Target</text>
+</a>
+</g>
+<path d="M371.5 48h10"></path>
+<path d="M381.5 48h10"></path>
+<g class="terminal">
+<path d="M391.5 48h0"></path>
+<path d="M462.5 48h0"></path>
+<rect x="391.5" y="37" width="71" height="22" rx="10" ry="10"></rect>
+<text x="427" y="52">"FROM"</text>
+</g>
+<path d="M462.5 48h10"></path>
+<path d="M472.5 48h10"></path>
+<g class="non-terminal">
+<path d="M482.5 48h0"></path>
+<path d="M553.5 48h0"></path>
+<rect x="482.5" y="37" width="71" height="22"></rect>
+<a xlink:href="#/expression/Source"><text x="518" y="52">Source</text>
+</a>
+</g>
+<path d="M553.5 48h10"></path>
+<path d="M563.5 48h10"></path>
+<g class="terminal">
+<path d="M573.5 48h0"></path>
+<path d="M644.5 48h0"></path>
+<rect x="573.5" y="37" width="71" height="22" rx="10" ry="10"></rect>
+<text x="609" y="52">"NEXT"</text>
+</g>
+<path d="M644.5 48h10"></path>
+<path d="M654.5 48h10"></path>
+<g class="non-terminal">
+<path d="M664.5 48h0"></path>
+<path d="M735.5 48h0"></path>
+<rect x="664.5" y="37" width="71" height="22"></rect>
+<a xlink:href="#/expression/Source"><text x="700" y="52">Source</text>
+</a>
+</g>
+<path d="M735.5 48h10"></path>
+<g>
+<path d="M745.5 48h0"></path>
+<path d="M956 48h0"></path>
+<path d="M745.5 48a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M765.5 28h170.5"></path>
+</g>
+<path d="M936 28a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M745.5 48h20"></path>
+<g>
+<path d="M765.5 48h0"></path>
+<path d="M936 48h0"></path>
+<g class="terminal">
+<path d="M765.5 48h0"></path>
+<path d="M845 48h0"></path>
+<rect x="765.5" y="37" width="79.5" height="22" rx="10" ry="10"></rect>
+<text x="805.25" y="52">"RANGE"</text>
+</g>
+<path d="M845 48h10"></path>
+<path d="M855 48h10"></path>
+<g class="non-terminal">
+<path d="M865 48h0"></path>
+<path d="M936 48h0"></path>
+<rect x="865" y="37" width="71" height="22"></rect>
+<a xlink:href="#/expression/Source"><text x="900.5" y="52">Source</text>
+</a>
+</g>
+</g>
+<path d="M936 48h20"></path>
+</g>
+</g>
+<path d="M956 48h10"></path>
+<path d="M184 48a10 10 0 0 0 -10 10v0a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M184 68h772"></path>
+</g>
+<path d="M956 68a10 10 0 0 0 10 -10v0a10 10 0 0 0 -10 -10"></path>
+</g>
+<path d="M966 48h10"></path>
+<path d="M164 48v29a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M174 87h0"></path>
+<path d="M344.5 87h621.5"></path>
+<g class="non-terminal">
+<path d="M174 87h0"></path>
+<path d="M245 87h0"></path>
+<rect x="174" y="76" width="71" height="22"></rect>
+<a xlink:href="#/expression/Source"><text x="209.5" y="91">Source</text>
+</a>
+</g>
+<path d="M245 87h10"></path>
+<path d="M255 87h10"></path>
+<g class="terminal">
+<path d="M265 87h0"></path>
+<path d="M344.5 87h0"></path>
+<rect x="265" y="76" width="79.5" height="22" rx="10" ry="10"></rect>
+<text x="304.75" y="91">"TIMES"</text>
+</g>
+</g>
+<path d="M966 87a10 10 0 0 0 10 -10v-29"></path>
+<g class="diagram-text">
+<title>take one or more branches, once each, in any order</title>
+<path d="M 164 38 h -26 a 4 4 0 0 0 -4 4 v 12 a 4 4 0 0 0 4 4 h 26 z" class="diagram-text"></path>
+<text x="149" y="52" class="diagram-text">1+</text>
+<path d="M 976 38 h 16 a 4 4 0 0 1 4 4 v 12 a 4 4 0 0 1 -4 4 h -16 z" class="diagram-text"></path>
+<path d="M 983 46 a 4 4 0 1 0 6 -1 m 2.75 -1 h -4 v 4 m 0 -3 h 2" style="stroke-width: 1.75"></path>
+</g>
+</g>
+<path d="M996 48h20"></path>
+</g>
+</g>
+<path d="M1016 48h10"></path>
+<path d="M 1026 48 h 20 m -10 -10 v 20 m 10 -20 v 20"></path>
+</g>
+</svg>

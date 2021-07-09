@@ -1,0 +1,406 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="railroad-diagram" width="746" height="371" viewBox="0 0 746 371">
+<defs>
+<style type="text/css"><![CDATA[
+path {
+stroke-width: 3;
+stroke: black;
+fill: rgba(0,0,0,0);
+}
+text {
+font: bold 14px monospace;
+text-anchor: middle;
+}
+text.diagram-text {
+font-size: 12px;
+}
+a {
+fill: blue;
+}
+text.diagram-arrow {
+font-size: 16px;
+}
+text.label {
+text-anchor: start;
+}
+text.comment {
+font: italic 12px monospace;
+}
+rect {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+}
+path.diagram-text {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+cursor: help;
+}
+]]></style>
+</defs>
+<g transform="translate(.5 .5)">
+<g>
+<path d="M20 30v20m0 -10h20"></path>
+</g>
+<g>
+<path d="M40 40h0"></path>
+<path d="M706 40h0"></path>
+<path d="M40 40h20"></path>
+<g>
+<path d="M60 40h0"></path>
+<path d="M686 40h0"></path>
+<g class="terminal">
+<path d="M60 40h0"></path>
+<path d="M139.5 40h0"></path>
+<rect x="60" y="29" width="79.5" height="22" rx="10" ry="10"></rect>
+<text x="99.75" y="44">"COUNT"</text>
+</g>
+<path d="M139.5 40h10"></path>
+<g>
+<path d="M149.5 40h0"></path>
+<path d="M252 40h0"></path>
+<path d="M149.5 40h20"></path>
+<g class="terminal">
+<path d="M169.5 40h0"></path>
+<path d="M223.5 40h8.5"></path>
+<rect x="169.5" y="29" width="54" height="22" rx="10" ry="10"></rect>
+<text x="196.5" y="44">!"("</text>
+</g>
+<path d="M232 40h20"></path>
+<path d="M149.5 40a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10"></path>
+<g class="terminal">
+<path d="M169.5 70h0"></path>
+<path d="M232 70h0"></path>
+<rect x="169.5" y="59" width="62.5" height="22" rx="10" ry="10"></rect>
+<text x="200.75" y="74">!"( "</text>
+</g>
+<path d="M232 70a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10"></path>
+</g>
+<g>
+<path d="M252 40h0"></path>
+<path d="M397 40h0"></path>
+<path d="M252 40a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M272 20h105"></path>
+</g>
+<path d="M377 20a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M252 40h20"></path>
+<g class="terminal">
+<path d="M272 40h0"></path>
+<path d="M377 40h0"></path>
+<rect x="272" y="29" width="105" height="22" rx="10" ry="10"></rect>
+<text x="324.5" y="44">"DISTINCT"</text>
+</g>
+<path d="M377 40h20"></path>
+</g>
+<g>
+<path d="M397 40h0"></path>
+<path d="M630.5 40h0"></path>
+<path d="M397 40h20"></path>
+<g class="terminal">
+<path d="M417 40h0"></path>
+<path d="M462.5 40h148"></path>
+<rect x="417" y="29" width="45.5" height="22" rx="10" ry="10"></rect>
+<text x="439.75" y="44">"&#42;"</text>
+</g>
+<path d="M610.5 40h20"></path>
+<path d="M397 40a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10"></path>
+<g class="non-terminal">
+<path d="M417 70h0"></path>
+<path d="M479.5 70h131"></path>
+<rect x="417" y="59" width="62.5" height="22"></rect>
+<a xlink:href="#/expression/Field"><text x="448.25" y="74">Field</text>
+</a>
+</g>
+<path d="M610.5 70a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10"></path>
+<path d="M397 40a10 10 0 0 1 10 10v40a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M417 100h0"></path>
+<path d="M610.5 100h0"></path>
+<g class="terminal">
+<path d="M417 100h0"></path>
+<path d="M462.5 100h0"></path>
+<rect x="417" y="89" width="45.5" height="22" rx="10" ry="10"></rect>
+<text x="439.75" y="104">"("</text>
+</g>
+<path d="M462.5 100h10"></path>
+<path d="M472.5 100h10"></path>
+<g class="non-terminal">
+<path d="M482.5 100h0"></path>
+<path d="M545 100h0"></path>
+<rect x="482.5" y="89" width="62.5" height="22"></rect>
+<a xlink:href="#/expression/Field"><text x="513.75" y="104">Field</text>
+</a>
+</g>
+<path d="M545 100h10"></path>
+<path d="M555 100h10"></path>
+<g class="terminal">
+<path d="M565 100h0"></path>
+<path d="M610.5 100h0"></path>
+<rect x="565" y="89" width="45.5" height="22" rx="10" ry="10"></rect>
+<text x="587.75" y="104">")"</text>
+</g>
+</g>
+<path d="M610.5 100a10 10 0 0 0 10 -10v-40a10 10 0 0 1 10 -10"></path>
+</g>
+<path d="M630.5 40h10"></path>
+<g class="terminal">
+<path d="M640.5 40h0"></path>
+<path d="M686 40h0"></path>
+<rect x="640.5" y="29" width="45.5" height="22" rx="10" ry="10"></rect>
+<text x="663.25" y="44">")"</text>
+</g>
+</g>
+<path d="M686 40h20"></path>
+<path d="M40 40a10 10 0 0 1 10 10v70a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M60 130h0"></path>
+<path d="M469.5 130h216.5"></path>
+<g class="terminal">
+<path d="M60 130h0"></path>
+<path d="M122.5 130h0"></path>
+<rect x="60" y="119" width="62.5" height="22" rx="10" ry="10"></rect>
+<text x="91.25" y="134">"MAX"</text>
+</g>
+<path d="M122.5 130h10"></path>
+<g>
+<path d="M132.5 130h0"></path>
+<path d="M235 130h0"></path>
+<path d="M132.5 130h20"></path>
+<g class="terminal">
+<path d="M152.5 130h0"></path>
+<path d="M206.5 130h8.5"></path>
+<rect x="152.5" y="119" width="54" height="22" rx="10" ry="10"></rect>
+<text x="179.5" y="134">!"("</text>
+</g>
+<path d="M215 130h20"></path>
+<path d="M132.5 130a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10"></path>
+<g class="terminal">
+<path d="M152.5 160h0"></path>
+<path d="M215 160h0"></path>
+<rect x="152.5" y="149" width="62.5" height="22" rx="10" ry="10"></rect>
+<text x="183.75" y="164">!"( "</text>
+</g>
+<path d="M215 160a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10"></path>
+</g>
+<g>
+<path d="M235 130h0"></path>
+<path d="M414 130h0"></path>
+<path d="M235 130h20"></path>
+<g class="non-terminal">
+<path d="M255 130h0"></path>
+<path d="M394 130h0"></path>
+<rect x="255" y="119" width="139" height="22"></rect>
+<a xlink:href="#/expression/SQLArithmetics"><text x="324.5" y="134">SQLArithmetics</text>
+</a>
+</g>
+<path d="M394 130h20"></path>
+<path d="M235 130a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10"></path>
+<g class="non-terminal">
+<path d="M255 160h0"></path>
+<path d="M334.5 160h59.5"></path>
+<rect x="255" y="149" width="79.5" height="22"></rect>
+<a xlink:href="#/expression/Dynamic"><text x="294.75" y="164">Dynamic</text>
+</a>
+</g>
+<path d="M394 160a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10"></path>
+</g>
+<path d="M414 130h10"></path>
+<g class="terminal">
+<path d="M424 130h0"></path>
+<path d="M469.5 130h0"></path>
+<rect x="424" y="119" width="45.5" height="22" rx="10" ry="10"></rect>
+<text x="446.75" y="134">")"</text>
+</g>
+</g>
+<path d="M686 130a10 10 0 0 0 10 -10v-70a10 10 0 0 1 10 -10"></path>
+<path d="M40 40a10 10 0 0 1 10 10v130a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M60 190h0"></path>
+<path d="M469.5 190h216.5"></path>
+<g class="terminal">
+<path d="M60 190h0"></path>
+<path d="M122.5 190h0"></path>
+<rect x="60" y="179" width="62.5" height="22" rx="10" ry="10"></rect>
+<text x="91.25" y="194">"MIN"</text>
+</g>
+<path d="M122.5 190h10"></path>
+<g>
+<path d="M132.5 190h0"></path>
+<path d="M235 190h0"></path>
+<path d="M132.5 190h20"></path>
+<g class="terminal">
+<path d="M152.5 190h0"></path>
+<path d="M206.5 190h8.5"></path>
+<rect x="152.5" y="179" width="54" height="22" rx="10" ry="10"></rect>
+<text x="179.5" y="194">!"("</text>
+</g>
+<path d="M215 190h20"></path>
+<path d="M132.5 190a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10"></path>
+<g class="terminal">
+<path d="M152.5 220h0"></path>
+<path d="M215 220h0"></path>
+<rect x="152.5" y="209" width="62.5" height="22" rx="10" ry="10"></rect>
+<text x="183.75" y="224">!"( "</text>
+</g>
+<path d="M215 220a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10"></path>
+</g>
+<g>
+<path d="M235 190h0"></path>
+<path d="M414 190h0"></path>
+<path d="M235 190h20"></path>
+<g class="non-terminal">
+<path d="M255 190h0"></path>
+<path d="M394 190h0"></path>
+<rect x="255" y="179" width="139" height="22"></rect>
+<a xlink:href="#/expression/SQLArithmetics"><text x="324.5" y="194">SQLArithmetics</text>
+</a>
+</g>
+<path d="M394 190h20"></path>
+<path d="M235 190a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10"></path>
+<g class="non-terminal">
+<path d="M255 220h0"></path>
+<path d="M334.5 220h59.5"></path>
+<rect x="255" y="209" width="79.5" height="22"></rect>
+<a xlink:href="#/expression/Dynamic"><text x="294.75" y="224">Dynamic</text>
+</a>
+</g>
+<path d="M394 220a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10"></path>
+</g>
+<path d="M414 190h10"></path>
+<g class="terminal">
+<path d="M424 190h0"></path>
+<path d="M469.5 190h0"></path>
+<rect x="424" y="179" width="45.5" height="22" rx="10" ry="10"></rect>
+<text x="446.75" y="194">")"</text>
+</g>
+</g>
+<path d="M686 190a10 10 0 0 0 10 -10v-130a10 10 0 0 1 10 -10"></path>
+<path d="M40 40a10 10 0 0 1 10 10v190a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M60 250h0"></path>
+<path d="M469.5 250h216.5"></path>
+<g class="terminal">
+<path d="M60 250h0"></path>
+<path d="M122.5 250h0"></path>
+<rect x="60" y="239" width="62.5" height="22" rx="10" ry="10"></rect>
+<text x="91.25" y="254">"SUM"</text>
+</g>
+<path d="M122.5 250h10"></path>
+<g>
+<path d="M132.5 250h0"></path>
+<path d="M235 250h0"></path>
+<path d="M132.5 250h20"></path>
+<g class="terminal">
+<path d="M152.5 250h0"></path>
+<path d="M206.5 250h8.5"></path>
+<rect x="152.5" y="239" width="54" height="22" rx="10" ry="10"></rect>
+<text x="179.5" y="254">!"("</text>
+</g>
+<path d="M215 250h20"></path>
+<path d="M132.5 250a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10"></path>
+<g class="terminal">
+<path d="M152.5 280h0"></path>
+<path d="M215 280h0"></path>
+<rect x="152.5" y="269" width="62.5" height="22" rx="10" ry="10"></rect>
+<text x="183.75" y="284">!"( "</text>
+</g>
+<path d="M215 280a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10"></path>
+</g>
+<g>
+<path d="M235 250h0"></path>
+<path d="M414 250h0"></path>
+<path d="M235 250h20"></path>
+<g class="non-terminal">
+<path d="M255 250h0"></path>
+<path d="M394 250h0"></path>
+<rect x="255" y="239" width="139" height="22"></rect>
+<a xlink:href="#/expression/SQLArithmetics"><text x="324.5" y="254">SQLArithmetics</text>
+</a>
+</g>
+<path d="M394 250h20"></path>
+<path d="M235 250a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10"></path>
+<g class="non-terminal">
+<path d="M255 280h0"></path>
+<path d="M334.5 280h59.5"></path>
+<rect x="255" y="269" width="79.5" height="22"></rect>
+<a xlink:href="#/expression/Dynamic"><text x="294.75" y="284">Dynamic</text>
+</a>
+</g>
+<path d="M394 280a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10"></path>
+</g>
+<path d="M414 250h10"></path>
+<g class="terminal">
+<path d="M424 250h0"></path>
+<path d="M469.5 250h0"></path>
+<rect x="424" y="239" width="45.5" height="22" rx="10" ry="10"></rect>
+<text x="446.75" y="254">")"</text>
+</g>
+</g>
+<path d="M686 250a10 10 0 0 0 10 -10v-190a10 10 0 0 1 10 -10"></path>
+<path d="M40 40a10 10 0 0 1 10 10v250a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M60 310h0"></path>
+<path d="M469.5 310h216.5"></path>
+<g class="terminal">
+<path d="M60 310h0"></path>
+<path d="M122.5 310h0"></path>
+<rect x="60" y="299" width="62.5" height="22" rx="10" ry="10"></rect>
+<text x="91.25" y="314">"AVG"</text>
+</g>
+<path d="M122.5 310h10"></path>
+<g>
+<path d="M132.5 310h0"></path>
+<path d="M235 310h0"></path>
+<path d="M132.5 310h20"></path>
+<g class="terminal">
+<path d="M152.5 310h0"></path>
+<path d="M206.5 310h8.5"></path>
+<rect x="152.5" y="299" width="54" height="22" rx="10" ry="10"></rect>
+<text x="179.5" y="314">!"("</text>
+</g>
+<path d="M215 310h20"></path>
+<path d="M132.5 310a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10"></path>
+<g class="terminal">
+<path d="M152.5 340h0"></path>
+<path d="M215 340h0"></path>
+<rect x="152.5" y="329" width="62.5" height="22" rx="10" ry="10"></rect>
+<text x="183.75" y="344">!"( "</text>
+</g>
+<path d="M215 340a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10"></path>
+</g>
+<g>
+<path d="M235 310h0"></path>
+<path d="M414 310h0"></path>
+<path d="M235 310h20"></path>
+<g class="non-terminal">
+<path d="M255 310h0"></path>
+<path d="M394 310h0"></path>
+<rect x="255" y="299" width="139" height="22"></rect>
+<a xlink:href="#/expression/SQLArithmetics"><text x="324.5" y="314">SQLArithmetics</text>
+</a>
+</g>
+<path d="M394 310h20"></path>
+<path d="M235 310a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10"></path>
+<g class="non-terminal">
+<path d="M255 340h0"></path>
+<path d="M334.5 340h59.5"></path>
+<rect x="255" y="329" width="79.5" height="22"></rect>
+<a xlink:href="#/expression/Dynamic"><text x="294.75" y="344">Dynamic</text>
+</a>
+</g>
+<path d="M394 340a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10"></path>
+</g>
+<path d="M414 310h10"></path>
+<g class="terminal">
+<path d="M424 310h0"></path>
+<path d="M469.5 310h0"></path>
+<rect x="424" y="299" width="45.5" height="22" rx="10" ry="10"></rect>
+<text x="446.75" y="314">")"</text>
+</g>
+</g>
+<path d="M686 310a10 10 0 0 0 10 -10v-250a10 10 0 0 1 10 -10"></path>
+</g>
+<path d="M 706 40 h 20 m 0 -10 v 20"></path>
+</g>
+</svg>

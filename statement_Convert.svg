@@ -1,0 +1,401 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="railroad-diagram" width="872.5" height="302" viewBox="0 0 872.5 302">
+<defs>
+<style type="text/css"><![CDATA[
+path {
+stroke-width: 3;
+stroke: black;
+fill: rgba(0,0,0,0);
+}
+text {
+font: bold 14px monospace;
+text-anchor: middle;
+}
+text.diagram-text {
+font-size: 12px;
+}
+a {
+fill: blue;
+}
+text.diagram-arrow {
+font-size: 16px;
+}
+text.label {
+text-anchor: start;
+}
+text.comment {
+font: italic 12px monospace;
+}
+rect {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+}
+path.diagram-text {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+cursor: help;
+}
+]]></style>
+</defs>
+<g transform="translate(.5 .5)">
+<g>
+<path d="M20 21v20m10 -20v20m-10 -10h20"></path>
+</g>
+<path d="M40 31h10"></path>
+<g>
+<path d="M50 31h0"></path>
+<path d="M822.5 31h0"></path>
+<g class="terminal">
+<path d="M50 31h0"></path>
+<path d="M146.5 31h0"></path>
+<rect x="50" y="20" width="96.5" height="22" rx="10" ry="10"></rect>
+<text x="98.25" y="35">"CONVERT"</text>
+</g>
+<path d="M146.5 31h10"></path>
+<g>
+<path d="M156.5 31h0"></path>
+<path d="M822.5 31h0"></path>
+<path d="M156.5 31h20"></path>
+<g>
+<path d="M176.5 31h0"></path>
+<path d="M802.5 31h0"></path>
+<g class="terminal">
+<path d="M176.5 31h0"></path>
+<path d="M298.5 31h0"></path>
+<rect x="176.5" y="20" width="122" height="22" rx="10" ry="10"></rect>
+<text x="237.5" y="35">"TIME STAMP"</text>
+</g>
+<path d="M298.5 31h10"></path>
+<path d="M308.5 31h10"></path>
+<g class="non-terminal">
+<path d="M318.5 31h0"></path>
+<path d="M389.5 31h0"></path>
+<rect x="318.5" y="20" width="71" height="22"></rect>
+<a xlink:href="#/expression/Source"><text x="354" y="35">Source</text>
+</a>
+</g>
+<path d="M389.5 31h10"></path>
+<path d="M399.5 31h10"></path>
+<g>
+<path d="M409.5 31h0"></path>
+<path d="M802.5 31h0"></path>
+<path d="M439.5 31h10"></path>
+<g>
+<path d="M449.5 31h0"></path>
+<path d="M654 31h118.5"></path>
+<g class="terminal">
+<path d="M449.5 31h0"></path>
+<path d="M563 31h0"></path>
+<rect x="449.5" y="20" width="113.5" height="22" rx="10" ry="10"></rect>
+<text x="506.25" y="35">"TIME ZONE"</text>
+</g>
+<path d="M563 31h10"></path>
+<path d="M573 31h10"></path>
+<g class="non-terminal">
+<path d="M583 31h0"></path>
+<path d="M654 31h0"></path>
+<rect x="583" y="20" width="71" height="22"></rect>
+<a xlink:href="#/expression/Source"><text x="618.5" y="35">Source</text>
+</a>
+</g>
+</g>
+<path d="M772.5 31h10"></path>
+<path d="M439.5 31v20a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M449.5 61h0"></path>
+<path d="M772.5 61h0"></path>
+<g class="terminal">
+<path d="M449.5 61h0"></path>
+<path d="M520.5 61h0"></path>
+<rect x="449.5" y="50" width="71" height="22" rx="10" ry="10"></rect>
+<text x="485" y="65">"INTO"</text>
+</g>
+<path d="M520.5 61h10"></path>
+<path d="M530.5 61h10"></path>
+<g>
+<path d="M540.5 61h0"></path>
+<path d="M772.5 61h0"></path>
+<path d="M570.5 61h10"></path>
+<g>
+<path d="M580.5 61h0"></path>
+<path d="M742.5 61h0"></path>
+<g class="terminal">
+<path d="M580.5 61h0"></path>
+<path d="M651.5 61h0"></path>
+<rect x="580.5" y="50" width="71" height="22" rx="10" ry="10"></rect>
+<text x="616" y="65">"TIME"</text>
+</g>
+<path d="M651.5 61h10"></path>
+<path d="M661.5 61h10"></path>
+<g class="non-terminal">
+<path d="M671.5 61h0"></path>
+<path d="M742.5 61h0"></path>
+<rect x="671.5" y="50" width="71" height="22"></rect>
+<a xlink:href="#/expression/Target"><text x="707" y="65">Target</text>
+</a>
+</g>
+</g>
+<path d="M742.5 61h10"></path>
+<path d="M570.5 61v20a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M580.5 91h0"></path>
+<path d="M742.5 91h0"></path>
+<g class="terminal">
+<path d="M580.5 91h0"></path>
+<path d="M651.5 91h0"></path>
+<rect x="580.5" y="80" width="71" height="22" rx="10" ry="10"></rect>
+<text x="616" y="95">"DATE"</text>
+</g>
+<path d="M651.5 91h10"></path>
+<path d="M661.5 91h10"></path>
+<g class="non-terminal">
+<path d="M671.5 91h0"></path>
+<path d="M742.5 91h0"></path>
+<rect x="671.5" y="80" width="71" height="22"></rect>
+<a xlink:href="#/expression/Target"><text x="707" y="95">Target</text>
+</a>
+</g>
+</g>
+<path d="M742.5 91a10 10 0 0 0 10 -10v-20"></path>
+<g class="diagram-text">
+<title>take one or more branches, once each, in any order</title>
+<path d="M 570.5 51 h -26 a 4 4 0 0 0 -4 4 v 12 a 4 4 0 0 0 4 4 h 26 z" class="diagram-text"></path>
+<text x="555.5" y="65" class="diagram-text">1+</text>
+<path d="M 752.5 51 h 16 a 4 4 0 0 1 4 4 v 12 a 4 4 0 0 1 -4 4 h -16 z" class="diagram-text"></path>
+<path d="M 759.5 59 a 4 4 0 1 0 6 -1 m 2.75 -1 h -4 v 4 m 0 -3 h 2" style="stroke-width: 1.75"></path>
+</g>
+</g>
+</g>
+<path d="M772.5 61a10 10 0 0 0 10 -10v-20"></path>
+<path d="M439.5 31v80a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M449.5 121h0"></path>
+<path d="M747.5 121h25"></path>
+<g class="terminal">
+<path d="M449.5 121h0"></path>
+<path d="M656.5 121h0"></path>
+<rect x="449.5" y="110" width="207" height="22" rx="10" ry="10"></rect>
+<text x="553" y="125">"DAYLIGHT SAVING TIME"</text>
+</g>
+<path d="M656.5 121h10"></path>
+<path d="M666.5 121h10"></path>
+<g class="non-terminal">
+<path d="M676.5 121h0"></path>
+<path d="M747.5 121h0"></path>
+<rect x="676.5" y="110" width="71" height="22"></rect>
+<a xlink:href="#/expression/Source"><text x="712" y="125">Source</text>
+</a>
+</g>
+</g>
+<path d="M772.5 121a10 10 0 0 0 10 -10v-80"></path>
+<g class="diagram-text">
+<title>take one or more branches, once each, in any order</title>
+<path d="M 439.5 21 h -26 a 4 4 0 0 0 -4 4 v 12 a 4 4 0 0 0 4 4 h 26 z" class="diagram-text"></path>
+<text x="424.5" y="35" class="diagram-text">1+</text>
+<path d="M 782.5 21 h 16 a 4 4 0 0 1 4 4 v 12 a 4 4 0 0 1 -4 4 h -16 z" class="diagram-text"></path>
+<path d="M 789.5 29 a 4 4 0 1 0 6 -1 m 2.75 -1 h -4 v 4 m 0 -3 h 2" style="stroke-width: 1.75"></path>
+</g>
+</g>
+</g>
+<path d="M802.5 31h20"></path>
+<path d="M156.5 31a10 10 0 0 1 10 10v100a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M176.5 151h0"></path>
+<path d="M796.5 151h6"></path>
+<g>
+<path d="M176.5 151h0"></path>
+<path d="M408.5 151h0"></path>
+<path d="M206.5 151h10"></path>
+<g>
+<path d="M216.5 151h0"></path>
+<path d="M378.5 151h0"></path>
+<g class="terminal">
+<path d="M216.5 151h0"></path>
+<path d="M287.5 151h0"></path>
+<rect x="216.5" y="140" width="71" height="22" rx="10" ry="10"></rect>
+<text x="252" y="155">"DATE"</text>
+</g>
+<path d="M287.5 151h10"></path>
+<path d="M297.5 151h10"></path>
+<g class="non-terminal">
+<path d="M307.5 151h0"></path>
+<path d="M378.5 151h0"></path>
+<rect x="307.5" y="140" width="71" height="22"></rect>
+<a xlink:href="#/expression/Source"><text x="343" y="155">Source</text>
+</a>
+</g>
+</g>
+<path d="M378.5 151h10"></path>
+<path d="M206.5 151v20a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M216.5 181h0"></path>
+<path d="M378.5 181h0"></path>
+<g class="terminal">
+<path d="M216.5 181h0"></path>
+<path d="M287.5 181h0"></path>
+<rect x="216.5" y="170" width="71" height="22" rx="10" ry="10"></rect>
+<text x="252" y="185">"TIME"</text>
+</g>
+<path d="M287.5 181h10"></path>
+<path d="M297.5 181h10"></path>
+<g class="non-terminal">
+<path d="M307.5 181h0"></path>
+<path d="M378.5 181h0"></path>
+<rect x="307.5" y="170" width="71" height="22"></rect>
+<a xlink:href="#/expression/Source"><text x="343" y="185">Source</text>
+</a>
+</g>
+</g>
+<path d="M378.5 181a10 10 0 0 0 10 -10v-20"></path>
+<g class="diagram-text">
+<title>take one or more branches, once each, in any order</title>
+<path d="M 206.5 141 h -26 a 4 4 0 0 0 -4 4 v 12 a 4 4 0 0 0 4 4 h 26 z" class="diagram-text"></path>
+<text x="191.5" y="155" class="diagram-text">1+</text>
+<path d="M 388.5 141 h 16 a 4 4 0 0 1 4 4 v 12 a 4 4 0 0 1 -4 4 h -16 z" class="diagram-text"></path>
+<path d="M 395.5 149 a 4 4 0 1 0 6 -1 m 2.75 -1 h -4 v 4 m 0 -3 h 2" style="stroke-width: 1.75"></path>
+</g>
+</g>
+<path d="M408.5 151h10"></path>
+<path d="M418.5 151h10"></path>
+<g>
+<path d="M428.5 151h0"></path>
+<path d="M796.5 151h0"></path>
+<path d="M458.5 151h10"></path>
+<g>
+<path d="M468.5 151h0"></path>
+<path d="M766.5 151h0"></path>
+<g class="terminal">
+<path d="M468.5 151h0"></path>
+<path d="M675.5 151h0"></path>
+<rect x="468.5" y="140" width="207" height="22" rx="10" ry="10"></rect>
+<text x="572" y="155">"DAYLIGHT SAVING TIME"</text>
+</g>
+<path d="M675.5 151h10"></path>
+<path d="M685.5 151h10"></path>
+<g class="non-terminal">
+<path d="M695.5 151h0"></path>
+<path d="M766.5 151h0"></path>
+<rect x="695.5" y="140" width="71" height="22"></rect>
+<a xlink:href="#/expression/Source"><text x="731" y="155">Source</text>
+</a>
+</g>
+</g>
+<path d="M766.5 151h10"></path>
+<path d="M458.5 151v20a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M468.5 181h0"></path>
+<path d="M724 181h42.5"></path>
+<g class="terminal">
+<path d="M468.5 181h0"></path>
+<path d="M633 181h0"></path>
+<rect x="468.5" y="170" width="164.5" height="22" rx="10" ry="10"></rect>
+<text x="550.75" y="185">"INTO TIME STAMP"</text>
+</g>
+<path d="M633 181h10"></path>
+<path d="M643 181h10"></path>
+<g class="non-terminal">
+<path d="M653 181h0"></path>
+<path d="M724 181h0"></path>
+<rect x="653" y="170" width="71" height="22"></rect>
+<a xlink:href="#/expression/Target"><text x="688.5" y="185">Target</text>
+</a>
+</g>
+</g>
+<path d="M766.5 181a10 10 0 0 0 10 -10v-20"></path>
+<path d="M458.5 151v50a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M468.5 211h0"></path>
+<path d="M673 211h93.5"></path>
+<g class="terminal">
+<path d="M468.5 211h0"></path>
+<path d="M582 211h0"></path>
+<rect x="468.5" y="200" width="113.5" height="22" rx="10" ry="10"></rect>
+<text x="525.25" y="215">"TIME ZONE"</text>
+</g>
+<path d="M582 211h10"></path>
+<path d="M592 211h10"></path>
+<g class="non-terminal">
+<path d="M602 211h0"></path>
+<path d="M673 211h0"></path>
+<rect x="602" y="200" width="71" height="22"></rect>
+<a xlink:href="#/expression/Source"><text x="637.5" y="215">Source</text>
+</a>
+</g>
+</g>
+<path d="M766.5 211a10 10 0 0 0 10 -10v-50"></path>
+<path d="M458.5 151v80a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M468.5 241h0"></path>
+<path d="M749.5 241h17"></path>
+<g class="terminal">
+<path d="M468.5 241h0"></path>
+<path d="M658.5 241h0"></path>
+<rect x="468.5" y="230" width="190" height="22" rx="10" ry="10"></rect>
+<text x="563.5" y="245">"INTO INVERTED-DATE"</text>
+</g>
+<path d="M658.5 241h10"></path>
+<path d="M668.5 241h10"></path>
+<g class="non-terminal">
+<path d="M678.5 241h0"></path>
+<path d="M749.5 241h0"></path>
+<rect x="678.5" y="230" width="71" height="22"></rect>
+<a xlink:href="#/expression/Target"><text x="714" y="245">Target</text>
+</a>
+</g>
+</g>
+<path d="M766.5 241a10 10 0 0 0 10 -10v-80"></path>
+<g class="diagram-text">
+<title>take one or more branches, once each, in any order</title>
+<path d="M 458.5 141 h -26 a 4 4 0 0 0 -4 4 v 12 a 4 4 0 0 0 4 4 h 26 z" class="diagram-text"></path>
+<text x="443.5" y="155" class="diagram-text">1+</text>
+<path d="M 776.5 141 h 16 a 4 4 0 0 1 4 4 v 12 a 4 4 0 0 1 -4 4 h -16 z" class="diagram-text"></path>
+<path d="M 783.5 149 a 4 4 0 1 0 6 -1 m 2.75 -1 h -4 v 4 m 0 -3 h 2" style="stroke-width: 1.75"></path>
+</g>
+</g>
+</g>
+<path d="M802.5 151a10 10 0 0 0 10 -10v-100a10 10 0 0 1 10 -10"></path>
+<path d="M156.5 31a10 10 0 0 1 10 10v220a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M176.5 271h0"></path>
+<path d="M639.5 271h163"></path>
+<g class="terminal">
+<path d="M176.5 271h0"></path>
+<path d="M324 271h0"></path>
+<rect x="176.5" y="260" width="147.5" height="22" rx="10" ry="10"></rect>
+<text x="250.25" y="275">"INVERTED-DATE"</text>
+</g>
+<path d="M324 271h10"></path>
+<path d="M334 271h10"></path>
+<g class="non-terminal">
+<path d="M344 271h0"></path>
+<path d="M415 271h0"></path>
+<rect x="344" y="260" width="71" height="22"></rect>
+<a xlink:href="#/expression/Source"><text x="379.5" y="275">Source</text>
+</a>
+</g>
+<path d="M415 271h10"></path>
+<path d="M425 271h10"></path>
+<g class="terminal">
+<path d="M435 271h0"></path>
+<path d="M548.5 271h0"></path>
+<rect x="435" y="260" width="113.5" height="22" rx="10" ry="10"></rect>
+<text x="491.75" y="275">"INTO DATE"</text>
+</g>
+<path d="M548.5 271h10"></path>
+<path d="M558.5 271h10"></path>
+<g class="non-terminal">
+<path d="M568.5 271h0"></path>
+<path d="M639.5 271h0"></path>
+<rect x="568.5" y="260" width="71" height="22"></rect>
+<a xlink:href="#/expression/Target"><text x="604" y="275">Target</text>
+</a>
+</g>
+</g>
+<path d="M802.5 271a10 10 0 0 0 10 -10v-220a10 10 0 0 1 10 -10"></path>
+</g>
+</g>
+<path d="M822.5 31h10"></path>
+<path d="M 832.5 31 h 20 m -10 -10 v 20 m 10 -20 v 20"></path>
+</g>
+</svg>

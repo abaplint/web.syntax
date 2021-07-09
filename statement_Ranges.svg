@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="railroad-diagram" width="825.5" height="71" viewBox="0 0 825.5 71">
+<defs>
+<style type="text/css"><![CDATA[
+path {
+stroke-width: 3;
+stroke: black;
+fill: rgba(0,0,0,0);
+}
+text {
+font: bold 14px monospace;
+text-anchor: middle;
+}
+text.diagram-text {
+font-size: 12px;
+}
+a {
+fill: blue;
+}
+text.diagram-arrow {
+font-size: 16px;
+}
+text.label {
+text-anchor: start;
+}
+text.comment {
+font: italic 12px monospace;
+}
+rect {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+}
+path.diagram-text {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+cursor: help;
+}
+]]></style>
+</defs>
+<g transform="translate(.5 .5)">
+<g>
+<path d="M20 30v20m10 -20v20m-10 -10h20"></path>
+</g>
+<path d="M40 40h10"></path>
+<g>
+<path d="M50 40h0"></path>
+<path d="M775.5 40h0"></path>
+<g>
+<path d="M50 40h0"></path>
+<path d="M123 40h0"></path>
+<text x="86.5" y="45" class="comment">not Cloud</text>
+</g>
+<path d="M123 40h10"></path>
+<path d="M133 40h10"></path>
+<g>
+<path d="M143 40h0"></path>
+<path d="M775.5 40h0"></path>
+<g class="terminal">
+<path d="M143 40h0"></path>
+<path d="M231 40h0"></path>
+<rect x="143" y="29" width="88" height="22" rx="10" ry="10"></rect>
+<text x="187" y="44">"RANGES"</text>
+</g>
+<path d="M231 40h10"></path>
+<path d="M241 40h10"></path>
+<g class="non-terminal">
+<path d="M251 40h0"></path>
+<path d="M356 40h0"></path>
+<rect x="251" y="29" width="105" height="22"></rect>
+<a xlink:href="#/expression/SimpleName"><text x="303.5" y="44">SimpleName</text>
+</a>
+</g>
+<path d="M356 40h10"></path>
+<path d="M366 40h10"></path>
+<g class="terminal">
+<path d="M376 40h0"></path>
+<path d="M438.5 40h0"></path>
+<rect x="376" y="29" width="62.5" height="22" rx="10" ry="10"></rect>
+<text x="407.25" y="44">"FOR"</text>
+</g>
+<path d="M438.5 40h10"></path>
+<path d="M448.5 40h10"></path>
+<g class="non-terminal">
+<path d="M458.5 40h0"></path>
+<path d="M546.5 40h0"></path>
+<rect x="458.5" y="29" width="88" height="22"></rect>
+<a xlink:href="#/expression/FieldSub"><text x="502.5" y="44">FieldSub</text>
+</a>
+</g>
+<path d="M546.5 40h10"></path>
+<g>
+<path d="M556.5 40h0"></path>
+<path d="M775.5 40h0"></path>
+<path d="M556.5 40a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M576.5 20h179"></path>
+</g>
+<path d="M755.5 20a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M556.5 40h20"></path>
+<g>
+<path d="M576.5 40h0"></path>
+<path d="M755.5 40h0"></path>
+<g class="terminal">
+<path d="M576.5 40h0"></path>
+<path d="M664.5 40h0"></path>
+<rect x="576.5" y="29" width="88" height="22" rx="10" ry="10"></rect>
+<text x="620.5" y="44">"OCCURS"</text>
+</g>
+<path d="M664.5 40h10"></path>
+<path d="M674.5 40h10"></path>
+<g class="non-terminal">
+<path d="M684.5 40h0"></path>
+<path d="M755.5 40h0"></path>
+<rect x="684.5" y="29" width="71" height="22"></rect>
+<a xlink:href="#/expression/Source"><text x="720" y="44">Source</text>
+</a>
+</g>
+</g>
+<path d="M755.5 40h20"></path>
+</g>
+</g>
+</g>
+<path d="M775.5 40h10"></path>
+<path d="M 785.5 40 h 20 m -10 -10 v 20 m 10 -20 v 20"></path>
+</g>
+</svg>

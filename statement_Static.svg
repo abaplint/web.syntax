@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="railroad-diagram" width="855" height="191" viewBox="0 0 855 191">
+<defs>
+<style type="text/css"><![CDATA[
+path {
+stroke-width: 3;
+stroke: black;
+fill: rgba(0,0,0,0);
+}
+text {
+font: bold 14px monospace;
+text-anchor: middle;
+}
+text.diagram-text {
+font-size: 12px;
+}
+a {
+fill: blue;
+}
+text.diagram-arrow {
+font-size: 16px;
+}
+text.label {
+text-anchor: start;
+}
+text.comment {
+font: italic 12px monospace;
+}
+rect {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+}
+path.diagram-text {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+cursor: help;
+}
+]]></style>
+</defs>
+<g transform="translate(.5 .5)">
+<g>
+<path d="M20 30v20m10 -20v20m-10 -10h20"></path>
+</g>
+<path d="M40 40h10"></path>
+<g>
+<path d="M50 40h0"></path>
+<path d="M805 40h0"></path>
+<g>
+<path d="M50 40h0"></path>
+<path d="M186.5 40h0"></path>
+<path d="M50 40h20"></path>
+<g class="terminal">
+<path d="M70 40h0"></path>
+<path d="M158 40h8.5"></path>
+<rect x="70" y="29" width="88" height="22" rx="10" ry="10"></rect>
+<text x="114" y="44">"STATIC"</text>
+</g>
+<path d="M166.5 40h20"></path>
+<path d="M50 40a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10"></path>
+<g class="terminal">
+<path d="M70 70h0"></path>
+<path d="M166.5 70h0"></path>
+<rect x="70" y="59" width="96.5" height="22" rx="10" ry="10"></rect>
+<text x="118.25" y="74">"STATICS"</text>
+</g>
+<path d="M166.5 70a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10"></path>
+</g>
+<path d="M186.5 40h10"></path>
+<g class="non-terminal">
+<path d="M196.5 40h0"></path>
+<path d="M335.5 40h0"></path>
+<rect x="196.5" y="29" width="139" height="22"></rect>
+<a xlink:href="#/expression/DefinitionName"><text x="266" y="44">DefinitionName</text>
+</a>
+</g>
+<path d="M335.5 40h10"></path>
+<g>
+<path d="M345.5 40h0"></path>
+<path d="M805 40h0"></path>
+<path d="M345.5 40h20"></path>
+<g>
+<path d="M365.5 40h0"></path>
+<path d="M785 40h0"></path>
+<g>
+<path d="M365.5 40h0"></path>
+<path d="M587 40h0"></path>
+<path d="M365.5 40a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M385.5 20h181.5"></path>
+</g>
+<path d="M567 20a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M365.5 40h20"></path>
+<g class="non-terminal">
+<path d="M385.5 40h0"></path>
+<path d="M567 40h0"></path>
+<rect x="385.5" y="29" width="181.5" height="22"></rect>
+<a xlink:href="#/expression/ConstantFieldLength"><text x="476.25" y="44">ConstantFieldLength</text>
+</a>
+</g>
+<path d="M567 40h20"></path>
+</g>
+<g>
+<path d="M587 40h0"></path>
+<path d="M785 40h0"></path>
+<path d="M587 40a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M607 20h158"></path>
+</g>
+<path d="M765 20a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M587 40h20"></path>
+<g>
+<path d="M607 40h0"></path>
+<path d="M765 40h0"></path>
+<path d="M637 40h10"></path>
+<g class="non-terminal">
+<path d="M647 40h0"></path>
+<path d="M701 40h34"></path>
+<rect x="647" y="29" width="54" height="22"></rect>
+<a xlink:href="#/expression/Type"><text x="674" y="44">Type</text>
+</a>
+</g>
+<path d="M735 40h10"></path>
+<path d="M637 40v20a10 10 0 0 0 10 10"></path>
+<g class="non-terminal">
+<path d="M647 70h0"></path>
+<path d="M709.5 70h25.5"></path>
+<rect x="647" y="59" width="62.5" height="22"></rect>
+<a xlink:href="#/expression/Value"><text x="678.25" y="74">Value</text>
+</a>
+</g>
+<path d="M735 70a10 10 0 0 0 10 -10v-20"></path>
+<path d="M637 40v50a10 10 0 0 0 10 10"></path>
+<g class="non-terminal">
+<path d="M647 100h0"></path>
+<path d="M718 100h17"></path>
+<rect x="647" y="89" width="71" height="22"></rect>
+<a xlink:href="#/expression/Length"><text x="682.5" y="104">Length</text>
+</a>
+</g>
+<path d="M735 100a10 10 0 0 0 10 -10v-50"></path>
+<path d="M637 40v80a10 10 0 0 0 10 10"></path>
+<g class="non-terminal">
+<path d="M647 130h0"></path>
+<path d="M735 130h0"></path>
+<rect x="647" y="119" width="88" height="22"></rect>
+<a xlink:href="#/expression/Decimals"><text x="691" y="134">Decimals</text>
+</a>
+</g>
+<path d="M735 130a10 10 0 0 0 10 -10v-80"></path>
+<g class="diagram-text">
+<title>take one or more branches, once each, in any order</title>
+<path d="M 637 30 h -26 a 4 4 0 0 0 -4 4 v 12 a 4 4 0 0 0 4 4 h 26 z" class="diagram-text"></path>
+<text x="622" y="44" class="diagram-text">1+</text>
+<path d="M 745 30 h 16 a 4 4 0 0 1 4 4 v 12 a 4 4 0 0 1 -4 4 h -16 z" class="diagram-text"></path>
+<path d="M 752 38 a 4 4 0 1 0 6 -1 m 2.75 -1 h -4 v 4 m 0 -3 h 2" style="stroke-width: 1.75"></path>
+</g>
+</g>
+<path d="M765 40h20"></path>
+</g>
+</g>
+<path d="M785 40h20"></path>
+<path d="M345.5 40a10 10 0 0 1 10 10v100a10 10 0 0 0 10 10"></path>
+<g class="non-terminal">
+<path d="M365.5 160h0"></path>
+<path d="M462 160h323"></path>
+<rect x="365.5" y="149" width="96.5" height="22"></rect>
+<a xlink:href="#/expression/TypeTable"><text x="413.75" y="164">TypeTable</text>
+</a>
+</g>
+<path d="M785 160a10 10 0 0 0 10 -10v-100a10 10 0 0 1 10 -10"></path>
+</g>
+</g>
+<path d="M805 40h10"></path>
+<path d="M 815 40 h 20 m -10 -10 v 20 m 10 -20 v 20"></path>
+</g>
+</svg>

@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="railroad-diagram" width="657" height="110" viewBox="0 0 657 110">
+<defs>
+<style type="text/css"><![CDATA[
+path {
+stroke-width: 3;
+stroke: black;
+fill: rgba(0,0,0,0);
+}
+text {
+font: bold 14px monospace;
+text-anchor: middle;
+}
+text.diagram-text {
+font-size: 12px;
+}
+a {
+fill: blue;
+}
+text.diagram-arrow {
+font-size: 16px;
+}
+text.label {
+text-anchor: start;
+}
+text.comment {
+font: italic 12px monospace;
+}
+rect {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+}
+path.diagram-text {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+cursor: help;
+}
+]]></style>
+</defs>
+<g transform="translate(.5 .5)">
+<g>
+<path d="M20 30v20m10 -20v20m-10 -10h20"></path>
+</g>
+<path d="M40 40h10"></path>
+<g>
+<path d="M50 40h0"></path>
+<path d="M607 40h0"></path>
+<g>
+<path d="M50 40h0"></path>
+<path d="M123 40h0"></path>
+<text x="86.5" y="45" class="comment">not Cloud</text>
+</g>
+<path d="M123 40h10"></path>
+<path d="M133 40h10"></path>
+<g>
+<path d="M143 40h0"></path>
+<path d="M607 40h0"></path>
+<g class="terminal">
+<path d="M143 40h0"></path>
+<path d="M205.5 40h0"></path>
+<rect x="143" y="29" width="62.5" height="22" rx="10" ry="10"></rect>
+<text x="174.25" y="44">"GET"</text>
+</g>
+<path d="M205.5 40h10"></path>
+<path d="M215.5 40h10"></path>
+<g class="non-terminal">
+<path d="M225.5 40h0"></path>
+<path d="M296.5 40h0"></path>
+<rect x="225.5" y="29" width="71" height="22"></rect>
+<a xlink:href="#/expression/Target"><text x="261" y="44">Target</text>
+</a>
+</g>
+<path d="M296.5 40h10"></path>
+<g>
+<path d="M306.5 40h0"></path>
+<path d="M607 40h0"></path>
+<path d="M306.5 40a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M326.5 20h260.5"></path>
+</g>
+<path d="M587 20a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M306.5 40h20"></path>
+<g>
+<path d="M326.5 40h0"></path>
+<path d="M587 40h0"></path>
+<path d="M356.5 40h10"></path>
+<g class="terminal">
+<path d="M366.5 40h0"></path>
+<path d="M437.5 40h119.5"></path>
+<rect x="366.5" y="29" width="71" height="22" rx="10" ry="10"></rect>
+<text x="402" y="44">"LATE"</text>
+</g>
+<path d="M557 40h10"></path>
+<path d="M356.5 40v20a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M366.5 70h0"></path>
+<path d="M557 70h0"></path>
+<g class="terminal">
+<path d="M366.5 70h0"></path>
+<path d="M454.5 70h0"></path>
+<rect x="366.5" y="59" width="88" height="22" rx="10" ry="10"></rect>
+<text x="410.5" y="74">"FIELDS"</text>
+</g>
+<path d="M454.5 70h10"></path>
+<path d="M464.5 70h10"></path>
+<g>
+<path d="M474.5 70h0"></path>
+<path d="M557 70h0"></path>
+<path d="M474.5 70h10"></path>
+<g class="non-terminal">
+<path d="M484.5 70h0"></path>
+<path d="M547 70h0"></path>
+<rect x="484.5" y="59" width="62.5" height="22"></rect>
+<a xlink:href="#/expression/Field"><text x="515.75" y="74">Field</text>
+</a>
+</g>
+<path d="M547 70h10"></path>
+<path d="M484.5 70a10 10 0 0 0 -10 10v0a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M484.5 90h62.5"></path>
+</g>
+<path d="M547 90a10 10 0 0 0 10 -10v0a10 10 0 0 0 -10 -10"></path>
+</g>
+</g>
+<path d="M557 70a10 10 0 0 0 10 -10v-20"></path>
+<g class="diagram-text">
+<title>take one or more branches, once each, in any order</title>
+<path d="M 356.5 30 h -26 a 4 4 0 0 0 -4 4 v 12 a 4 4 0 0 0 4 4 h 26 z" class="diagram-text"></path>
+<text x="341.5" y="44" class="diagram-text">1+</text>
+<path d="M 567 30 h 16 a 4 4 0 0 1 4 4 v 12 a 4 4 0 0 1 -4 4 h -16 z" class="diagram-text"></path>
+<path d="M 574 38 a 4 4 0 1 0 6 -1 m 2.75 -1 h -4 v 4 m 0 -3 h 2" style="stroke-width: 1.75"></path>
+</g>
+</g>
+<path d="M587 40h20"></path>
+</g>
+</g>
+</g>
+<path d="M607 40h10"></path>
+<path d="M 617 40 h 20 m -10 -10 v 20 m 10 -20 v 20"></path>
+</g>
+</svg>

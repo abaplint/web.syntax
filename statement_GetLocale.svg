@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="railroad-diagram" width="936" height="71" viewBox="0 0 936 71">
+<defs>
+<style type="text/css"><![CDATA[
+path {
+stroke-width: 3;
+stroke: black;
+fill: rgba(0,0,0,0);
+}
+text {
+font: bold 14px monospace;
+text-anchor: middle;
+}
+text.diagram-text {
+font-size: 12px;
+}
+a {
+fill: blue;
+}
+text.diagram-arrow {
+font-size: 16px;
+}
+text.label {
+text-anchor: start;
+}
+text.comment {
+font: italic 12px monospace;
+}
+rect {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+}
+path.diagram-text {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+cursor: help;
+}
+]]></style>
+</defs>
+<g transform="translate(.5 .5)">
+<g>
+<path d="M20 30v20m10 -20v20m-10 -10h20"></path>
+</g>
+<path d="M40 40h10"></path>
+<g>
+<path d="M50 40h0"></path>
+<path d="M886 40h0"></path>
+<g>
+<path d="M50 40h0"></path>
+<path d="M123 40h0"></path>
+<text x="86.5" y="45" class="comment">not Cloud</text>
+</g>
+<path d="M123 40h10"></path>
+<path d="M133 40h10"></path>
+<g>
+<path d="M143 40h0"></path>
+<path d="M886 40h0"></path>
+<g class="terminal">
+<path d="M143 40h0"></path>
+<path d="M341.5 40h0"></path>
+<rect x="143" y="29" width="198.5" height="22" rx="10" ry="10"></rect>
+<text x="242.25" y="44">"GET LOCALE LANGUAGE"</text>
+</g>
+<path d="M341.5 40h10"></path>
+<path d="M351.5 40h10"></path>
+<g class="non-terminal">
+<path d="M361.5 40h0"></path>
+<path d="M432.5 40h0"></path>
+<rect x="361.5" y="29" width="71" height="22"></rect>
+<a xlink:href="#/expression/Target"><text x="397" y="44">Target</text>
+</a>
+</g>
+<path d="M432.5 40h10"></path>
+<path d="M442.5 40h10"></path>
+<g>
+<path d="M452.5 40h0"></path>
+<path d="M640 40h0"></path>
+<g class="terminal">
+<path d="M452.5 40h0"></path>
+<path d="M549 40h0"></path>
+<rect x="452.5" y="29" width="96.5" height="22" rx="10" ry="10"></rect>
+<text x="500.75" y="44">"COUNTRY"</text>
+</g>
+<path d="M549 40h10"></path>
+<path d="M559 40h10"></path>
+<g class="non-terminal">
+<path d="M569 40h0"></path>
+<path d="M640 40h0"></path>
+<rect x="569" y="29" width="71" height="22"></rect>
+<a xlink:href="#/expression/Target"><text x="604.5" y="44">Target</text>
+</a>
+</g>
+</g>
+<path d="M640 40h10"></path>
+<g>
+<path d="M650 40h0"></path>
+<path d="M886 40h0"></path>
+<path d="M650 40a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M670 20h196"></path>
+</g>
+<path d="M866 20a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M650 40h20"></path>
+<g>
+<path d="M670 40h0"></path>
+<path d="M866 40h0"></path>
+<g class="terminal">
+<path d="M670 40h0"></path>
+<path d="M775 40h0"></path>
+<rect x="670" y="29" width="105" height="22" rx="10" ry="10"></rect>
+<text x="722.5" y="44">"MODIFIER"</text>
+</g>
+<path d="M775 40h10"></path>
+<path d="M785 40h10"></path>
+<g class="non-terminal">
+<path d="M795 40h0"></path>
+<path d="M866 40h0"></path>
+<rect x="795" y="29" width="71" height="22"></rect>
+<a xlink:href="#/expression/Target"><text x="830.5" y="44">Target</text>
+</a>
+</g>
+</g>
+<path d="M866 40h20"></path>
+</g>
+</g>
+</g>
+<path d="M886 40h10"></path>
+<path d="M 896 40 h 20 m -10 -10 v 20 m 10 -20 v 20"></path>
+</g>
+</svg>

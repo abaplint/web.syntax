@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="railroad-diagram" width="1038" height="161" viewBox="0 0 1038 161">
+<defs>
+<style type="text/css"><![CDATA[
+path {
+stroke-width: 3;
+stroke: black;
+fill: rgba(0,0,0,0);
+}
+text {
+font: bold 14px monospace;
+text-anchor: middle;
+}
+text.diagram-text {
+font-size: 12px;
+}
+a {
+fill: blue;
+}
+text.diagram-arrow {
+font-size: 16px;
+}
+text.label {
+text-anchor: start;
+}
+text.comment {
+font: italic 12px monospace;
+}
+rect {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+}
+path.diagram-text {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+cursor: help;
+}
+]]></style>
+</defs>
+<g transform="translate(.5 .5)">
+<g>
+<path d="M20 30v20m10 -20v20m-10 -10h20"></path>
+</g>
+<path d="M40 40h10"></path>
+<g>
+<path d="M50 40h0"></path>
+<path d="M988 40h0"></path>
+<g class="terminal">
+<path d="M50 40h0"></path>
+<path d="M129.5 40h0"></path>
+<rect x="50" y="29" width="79.5" height="22" rx="10" ry="10"></rect>
+<text x="89.75" y="44">"TYPES"</text>
+</g>
+<path d="M129.5 40h10"></path>
+<path d="M139.5 40h10"></path>
+<g>
+<path d="M149.5 40h0"></path>
+<path d="M800.5 40h0"></path>
+<g class="non-terminal">
+<path d="M149.5 40h0"></path>
+<path d="M331 40h0"></path>
+<rect x="149.5" y="29" width="181.5" height="22"></rect>
+<a xlink:href="#/expression/NamespaceSimpleName"><text x="240.25" y="44">NamespaceSimpleName</text>
+</a>
+</g>
+<path d="M331 40h10"></path>
+<g>
+<path d="M341 40h0"></path>
+<path d="M562.5 40h0"></path>
+<path d="M341 40a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M361 20h181.5"></path>
+</g>
+<path d="M542.5 20a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M341 40h20"></path>
+<g class="non-terminal">
+<path d="M361 40h0"></path>
+<path d="M542.5 40h0"></path>
+<rect x="361" y="29" width="181.5" height="22"></rect>
+<a xlink:href="#/expression/ConstantFieldLength"><text x="451.75" y="44">ConstantFieldLength</text>
+</a>
+</g>
+<path d="M542.5 40h20"></path>
+</g>
+<g>
+<path d="M562.5 40h0"></path>
+<path d="M800.5 40h0"></path>
+<path d="M562.5 40a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M582.5 20h198"></path>
+</g>
+<path d="M780.5 20a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M562.5 40h20"></path>
+<g>
+<path d="M582.5 40h0"></path>
+<path d="M780.5 40h0"></path>
+<path d="M582.5 40h20"></path>
+<g>
+<path d="M602.5 40h0"></path>
+<path d="M760.5 40h0"></path>
+<path d="M632.5 40h10"></path>
+<g class="non-terminal">
+<path d="M642.5 40h0"></path>
+<path d="M696.5 40h34"></path>
+<rect x="642.5" y="29" width="54" height="22"></rect>
+<a xlink:href="#/expression/Type"><text x="669.5" y="44">Type</text>
+</a>
+</g>
+<path d="M730.5 40h10"></path>
+<path d="M632.5 40v20a10 10 0 0 0 10 10"></path>
+<g class="non-terminal">
+<path d="M642.5 70h0"></path>
+<path d="M730.5 70h0"></path>
+<rect x="642.5" y="59" width="88" height="22"></rect>
+<a xlink:href="#/expression/Decimals"><text x="686.5" y="74">Decimals</text>
+</a>
+</g>
+<path d="M730.5 70a10 10 0 0 0 10 -10v-20"></path>
+<path d="M632.5 40v50a10 10 0 0 0 10 10"></path>
+<g class="non-terminal">
+<path d="M642.5 100h0"></path>
+<path d="M713.5 100h17"></path>
+<rect x="642.5" y="89" width="71" height="22"></rect>
+<a xlink:href="#/expression/Length"><text x="678" y="104">Length</text>
+</a>
+</g>
+<path d="M730.5 100a10 10 0 0 0 10 -10v-50"></path>
+<g class="diagram-text">
+<title>take one or more branches, once each, in any order</title>
+<path d="M 632.5 30 h -26 a 4 4 0 0 0 -4 4 v 12 a 4 4 0 0 0 4 4 h 26 z" class="diagram-text"></path>
+<text x="617.5" y="44" class="diagram-text">1+</text>
+<path d="M 740.5 30 h 16 a 4 4 0 0 1 4 4 v 12 a 4 4 0 0 1 -4 4 h -16 z" class="diagram-text"></path>
+<path d="M 747.5 38 a 4 4 0 1 0 6 -1 m 2.75 -1 h -4 v 4 m 0 -3 h 2" style="stroke-width: 1.75"></path>
+</g>
+</g>
+<path d="M760.5 40h20"></path>
+<path d="M582.5 40a10 10 0 0 1 10 10v70a10 10 0 0 0 10 10"></path>
+<g class="non-terminal">
+<path d="M602.5 130h0"></path>
+<path d="M699 130h61.5"></path>
+<rect x="602.5" y="119" width="96.5" height="22"></rect>
+<a xlink:href="#/expression/TypeTable"><text x="650.75" y="134">TypeTable</text>
+</a>
+</g>
+<path d="M760.5 130a10 10 0 0 0 10 -10v-70a10 10 0 0 1 10 -10"></path>
+</g>
+<path d="M780.5 40h20"></path>
+</g>
+</g>
+<path d="M800.5 40h10"></path>
+<g>
+<path d="M810.5 40h0"></path>
+<path d="M988 40h0"></path>
+<path d="M810.5 40a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M830.5 20h137.5"></path>
+</g>
+<path d="M968 20a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M810.5 40h20"></path>
+<g>
+<path d="M830.5 40h0"></path>
+<path d="M968 40h0"></path>
+<g>
+<path d="M830.5 40h0"></path>
+<path d="M868.5 40h0"></path>
+<text x="849.5" y="45" class="comment">v702</text>
+</g>
+<path d="M868.5 40h10"></path>
+<path d="M878.5 40h10"></path>
+<g class="terminal">
+<path d="M888.5 40h0"></path>
+<path d="M968 40h0"></path>
+<rect x="888.5" y="29" width="79.5" height="22" rx="10" ry="10"></rect>
+<text x="928.25" y="44">"BOXED"</text>
+</g>
+</g>
+<path d="M968 40h20"></path>
+</g>
+</g>
+<path d="M988 40h10"></path>
+<path d="M 998 40 h 20 m -10 -10 v 20 m 10 -20 v 20"></path>
+</g>
+</svg>

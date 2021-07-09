@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="railroad-diagram" width="891.5" height="131" viewBox="0 0 891.5 131">
+<defs>
+<style type="text/css"><![CDATA[
+path {
+stroke-width: 3;
+stroke: black;
+fill: rgba(0,0,0,0);
+}
+text {
+font: bold 14px monospace;
+text-anchor: middle;
+}
+text.diagram-text {
+font-size: 12px;
+}
+a {
+fill: blue;
+}
+text.diagram-arrow {
+font-size: 16px;
+}
+text.label {
+text-anchor: start;
+}
+text.comment {
+font: italic 12px monospace;
+}
+rect {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+}
+path.diagram-text {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+cursor: help;
+}
+]]></style>
+</defs>
+<g transform="translate(.5 .5)">
+<g>
+<path d="M20 30v20m10 -20v20m-10 -10h20"></path>
+</g>
+<path d="M40 40h10"></path>
+<g>
+<path d="M50 40h0"></path>
+<path d="M841.5 40h0"></path>
+<g class="terminal">
+<path d="M50 40h0"></path>
+<path d="M197.5 40h0"></path>
+<rect x="50" y="29" width="147.5" height="22" rx="10" ry="10"></rect>
+<text x="123.75" y="44">"FIELD-SYMBOLS"</text>
+</g>
+<path d="M197.5 40h10"></path>
+<path d="M207.5 40h10"></path>
+<g class="non-terminal">
+<path d="M217.5 40h0"></path>
+<path d="M331 40h0"></path>
+<rect x="217.5" y="29" width="113.5" height="22"></rect>
+<a xlink:href="#/expression/FieldSymbol"><text x="274.25" y="44">FieldSymbol</text>
+</a>
+</g>
+<path d="M331 40h10"></path>
+<g>
+<path d="M341 40h0"></path>
+<path d="M841.5 40h0"></path>
+<path d="M341 40a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M361 20h460.5"></path>
+</g>
+<path d="M821.5 20a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M341 40h20"></path>
+<g>
+<path d="M361 40h0"></path>
+<path d="M821.5 40h0"></path>
+<path d="M361 40h20"></path>
+<g class="non-terminal">
+<path d="M381 40h0"></path>
+<path d="M435 40h366.5"></path>
+<rect x="381" y="29" width="54" height="22"></rect>
+<a xlink:href="#/expression/Type"><text x="408" y="44">Type</text>
+</a>
+</g>
+<path d="M801.5 40h20"></path>
+<path d="M361 40a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10"></path>
+<g class="non-terminal">
+<path d="M381 70h0"></path>
+<path d="M477.5 70h324"></path>
+<rect x="381" y="59" width="96.5" height="22"></rect>
+<a xlink:href="#/expression/TypeTable"><text x="429.25" y="74">TypeTable</text>
+</a>
+</g>
+<path d="M801.5 70a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10"></path>
+<path d="M361 40a10 10 0 0 1 10 10v40a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M381 100h0"></path>
+<path d="M801.5 100h0"></path>
+<g class="terminal">
+<path d="M381 100h0"></path>
+<path d="M494.5 100h0"></path>
+<rect x="381" y="89" width="113.5" height="22" rx="10" ry="10"></rect>
+<text x="437.75" y="104">"STRUCTURE"</text>
+</g>
+<path d="M494.5 100h10"></path>
+<path d="M504.5 100h10"></path>
+<g class="non-terminal">
+<path d="M514.5 100h0"></path>
+<path d="M602.5 100h0"></path>
+<rect x="514.5" y="89" width="88" height="22"></rect>
+<a xlink:href="#/expression/TypeName"><text x="558.5" y="104">TypeName</text>
+</a>
+</g>
+<path d="M602.5 100h10"></path>
+<path d="M612.5 100h10"></path>
+<g class="terminal">
+<path d="M622.5 100h0"></path>
+<path d="M719 100h0"></path>
+<rect x="622.5" y="89" width="96.5" height="22" rx="10" ry="10"></rect>
+<text x="670.75" y="104">"DEFAULT"</text>
+</g>
+<path d="M719 100h10"></path>
+<path d="M729 100h10"></path>
+<g class="non-terminal">
+<path d="M739 100h0"></path>
+<path d="M801.5 100h0"></path>
+<rect x="739" y="89" width="62.5" height="22"></rect>
+<a xlink:href="#/expression/Field"><text x="770.25" y="104">Field</text>
+</a>
+</g>
+</g>
+<path d="M801.5 100a10 10 0 0 0 10 -10v-40a10 10 0 0 1 10 -10"></path>
+</g>
+<path d="M821.5 40h20"></path>
+</g>
+</g>
+<path d="M841.5 40h10"></path>
+<path d="M 851.5 40 h 20 m -10 -10 v 20 m 10 -20 v 20"></path>
+</g>
+</svg>

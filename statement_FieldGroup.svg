@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="railroad-diagram" width="434.5" height="71" viewBox="0 0 434.5 71">
+<defs>
+<style type="text/css"><![CDATA[
+path {
+stroke-width: 3;
+stroke: black;
+fill: rgba(0,0,0,0);
+}
+text {
+font: bold 14px monospace;
+text-anchor: middle;
+}
+text.diagram-text {
+font-size: 12px;
+}
+a {
+fill: blue;
+}
+text.diagram-arrow {
+font-size: 16px;
+}
+text.label {
+text-anchor: start;
+}
+text.comment {
+font: italic 12px monospace;
+}
+rect {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+}
+path.diagram-text {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+cursor: help;
+}
+]]></style>
+</defs>
+<g transform="translate(.5 .5)">
+<g>
+<path d="M20 21v20m10 -20v20m-10 -10h20"></path>
+</g>
+<path d="M40 31h10"></path>
+<g>
+<path d="M50 31h0"></path>
+<path d="M384.5 31h0"></path>
+<g>
+<path d="M50 31h0"></path>
+<path d="M123 31h0"></path>
+<text x="86.5" y="36" class="comment">not Cloud</text>
+</g>
+<path d="M123 31h10"></path>
+<path d="M133 31h10"></path>
+<g>
+<path d="M143 31h0"></path>
+<path d="M384.5 31h0"></path>
+<g class="terminal">
+<path d="M143 31h0"></path>
+<path d="M282 31h0"></path>
+<rect x="143" y="20" width="139" height="22" rx="10" ry="10"></rect>
+<text x="212.5" y="35">"FIELD-GROUPS"</text>
+</g>
+<path d="M282 31h10"></path>
+<path d="M292 31h10"></path>
+<g>
+<path d="M302 31h0"></path>
+<path d="M384.5 31h0"></path>
+<path d="M302 31h10"></path>
+<g class="non-terminal">
+<path d="M312 31h0"></path>
+<path d="M374.5 31h0"></path>
+<rect x="312" y="20" width="62.5" height="22"></rect>
+<a xlink:href="#/expression/Field"><text x="343.25" y="35">Field</text>
+</a>
+</g>
+<path d="M374.5 31h10"></path>
+<path d="M312 31a10 10 0 0 0 -10 10v0a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M312 51h62.5"></path>
+</g>
+<path d="M374.5 51a10 10 0 0 0 10 -10v0a10 10 0 0 0 -10 -10"></path>
+</g>
+</g>
+</g>
+<path d="M384.5 31h10"></path>
+<path d="M 394.5 31 h 20 m -10 -10 v 20 m 10 -20 v 20"></path>
+</g>
+</svg>

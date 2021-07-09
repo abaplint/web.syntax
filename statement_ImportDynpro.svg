@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="railroad-diagram" width="869.5" height="62" viewBox="0 0 869.5 62">
+<defs>
+<style type="text/css"><![CDATA[
+path {
+stroke-width: 3;
+stroke: black;
+fill: rgba(0,0,0,0);
+}
+text {
+font: bold 14px monospace;
+text-anchor: middle;
+}
+text.diagram-text {
+font-size: 12px;
+}
+a {
+fill: blue;
+}
+text.diagram-arrow {
+font-size: 16px;
+}
+text.label {
+text-anchor: start;
+}
+text.comment {
+font: italic 12px monospace;
+}
+rect {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+}
+path.diagram-text {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+cursor: help;
+}
+]]></style>
+</defs>
+<g transform="translate(.5 .5)">
+<g>
+<path d="M20 21v20m10 -20v20m-10 -10h20"></path>
+</g>
+<path d="M40 31h10"></path>
+<g>
+<path d="M50 31h0"></path>
+<path d="M819.5 31h0"></path>
+<g>
+<path d="M50 31h0"></path>
+<path d="M123 31h0"></path>
+<text x="86.5" y="36" class="comment">not Cloud</text>
+</g>
+<path d="M123 31h10"></path>
+<path d="M133 31h10"></path>
+<g>
+<path d="M143 31h0"></path>
+<path d="M819.5 31h0"></path>
+<g class="terminal">
+<path d="M143 31h0"></path>
+<path d="M290.5 31h0"></path>
+<rect x="143" y="20" width="147.5" height="22" rx="10" ry="10"></rect>
+<text x="216.75" y="35">"IMPORT DYNPRO"</text>
+</g>
+<path d="M290.5 31h10"></path>
+<path d="M300.5 31h10"></path>
+<g class="non-terminal">
+<path d="M310.5 31h0"></path>
+<path d="M381.5 31h0"></path>
+<rect x="310.5" y="20" width="71" height="22"></rect>
+<a xlink:href="#/expression/Target"><text x="346" y="35">Target</text>
+</a>
+</g>
+<path d="M381.5 31h10"></path>
+<path d="M391.5 31h10"></path>
+<g class="non-terminal">
+<path d="M401.5 31h0"></path>
+<path d="M472.5 31h0"></path>
+<rect x="401.5" y="20" width="71" height="22"></rect>
+<a xlink:href="#/expression/Target"><text x="437" y="35">Target</text>
+</a>
+</g>
+<path d="M472.5 31h10"></path>
+<path d="M482.5 31h10"></path>
+<g class="non-terminal">
+<path d="M492.5 31h0"></path>
+<path d="M563.5 31h0"></path>
+<rect x="492.5" y="20" width="71" height="22"></rect>
+<a xlink:href="#/expression/Target"><text x="528" y="35">Target</text>
+</a>
+</g>
+<path d="M563.5 31h10"></path>
+<path d="M573.5 31h10"></path>
+<g class="non-terminal">
+<path d="M583.5 31h0"></path>
+<path d="M654.5 31h0"></path>
+<rect x="583.5" y="20" width="71" height="22"></rect>
+<a xlink:href="#/expression/Target"><text x="619" y="35">Target</text>
+</a>
+</g>
+<path d="M654.5 31h10"></path>
+<path d="M664.5 31h10"></path>
+<g class="terminal">
+<path d="M674.5 31h0"></path>
+<path d="M728.5 31h0"></path>
+<rect x="674.5" y="20" width="54" height="22" rx="10" ry="10"></rect>
+<text x="701.5" y="35">"ID"</text>
+</g>
+<path d="M728.5 31h10"></path>
+<path d="M738.5 31h10"></path>
+<g class="non-terminal">
+<path d="M748.5 31h0"></path>
+<path d="M819.5 31h0"></path>
+<rect x="748.5" y="20" width="71" height="22"></rect>
+<a xlink:href="#/expression/Source"><text x="784" y="35">Source</text>
+</a>
+</g>
+</g>
+</g>
+<path d="M819.5 31h10"></path>
+<path d="M 829.5 31 h 20 m -10 -10 v 20 m 10 -20 v 20"></path>
+</g>
+</svg>

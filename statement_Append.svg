@@ -1,0 +1,337 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="railroad-diagram" width="1891.5" height="148" viewBox="0 0 1891.5 148">
+<defs>
+<style type="text/css"><![CDATA[
+path {
+stroke-width: 3;
+stroke: black;
+fill: rgba(0,0,0,0);
+}
+text {
+font: bold 14px monospace;
+text-anchor: middle;
+}
+text.diagram-text {
+font-size: 12px;
+}
+a {
+fill: blue;
+}
+text.diagram-arrow {
+font-size: 16px;
+}
+text.label {
+text-anchor: start;
+}
+text.comment {
+font: italic 12px monospace;
+}
+rect {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+}
+path.diagram-text {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+cursor: help;
+}
+]]></style>
+</defs>
+<g transform="translate(.5 .5)">
+<g>
+<path d="M20 38v20m10 -20v20m-10 -10h20"></path>
+</g>
+<path d="M40 48h10"></path>
+<g>
+<path d="M50 48h0"></path>
+<path d="M1841.5 48h0"></path>
+<g class="terminal">
+<path d="M50 48h0"></path>
+<path d="M138 48h0"></path>
+<rect x="50" y="37" width="88" height="22" rx="10" ry="10"></rect>
+<text x="94" y="52">"APPEND"</text>
+</g>
+<path d="M138 48h10"></path>
+<g>
+<path d="M148 48h0"></path>
+<path d="M530 48h0"></path>
+<path d="M148 48h20"></path>
+<g class="terminal">
+<path d="M168 48h0"></path>
+<path d="M307 48h203"></path>
+<rect x="168" y="37" width="139" height="22" rx="10" ry="10"></rect>
+<text x="237.5" y="52">"INITIAL LINE"</text>
+</g>
+<path d="M510 48h20"></path>
+<path d="M148 48a10 10 0 0 1 10 10v19a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M168 87h0"></path>
+<path d="M510 87h0"></path>
+<g>
+<path d="M168 87h0"></path>
+<path d="M313 87h0"></path>
+<path d="M168 87a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M188 67h105"></path>
+</g>
+<path d="M293 67a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M168 87h20"></path>
+<g class="terminal">
+<path d="M188 87h0"></path>
+<path d="M293 87h0"></path>
+<rect x="188" y="76" width="105" height="22" rx="10" ry="10"></rect>
+<text x="240.5" y="91">"LINES OF"</text>
+</g>
+<path d="M293 87h20"></path>
+</g>
+<g>
+<path d="M313 87h0"></path>
+<path d="M510 87h0"></path>
+<path d="M313 87h20"></path>
+<g class="non-terminal">
+<path d="M333 87h0"></path>
+<path d="M463.5 87h26.5"></path>
+<rect x="333" y="76" width="130.5" height="22"></rect>
+<a xlink:href="#/expression/SimpleSource4"><text x="398.25" y="91">SimpleSource4</text>
+</a>
+</g>
+<path d="M490 87h20"></path>
+<path d="M313 87a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M333 117h0"></path>
+<path d="M490 117h0"></path>
+<g>
+<path d="M333 117h0"></path>
+<path d="M399 117h0"></path>
+<text x="366" y="122" class="comment">v740sp02</text>
+</g>
+<path d="M399 117h10"></path>
+<path d="M409 117h10"></path>
+<g class="non-terminal">
+<path d="M419 117h0"></path>
+<path d="M490 117h0"></path>
+<rect x="419" y="106" width="71" height="22"></rect>
+<a xlink:href="#/expression/Source"><text x="454.5" y="121">Source</text>
+</a>
+</g>
+</g>
+<path d="M490 117a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10"></path>
+</g>
+</g>
+<path d="M510 87a10 10 0 0 0 10 -10v-19a10 10 0 0 1 10 -10"></path>
+</g>
+<g>
+<path d="M530 48h0"></path>
+<path d="M957 48h0"></path>
+<path d="M530 48a10 10 0 0 0 10 -10v-8a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M550 20h387"></path>
+</g>
+<path d="M937 20a10 10 0 0 1 10 10v8a10 10 0 0 0 10 10"></path>
+<path d="M530 48h20"></path>
+<g>
+<path d="M550 48h0"></path>
+<path d="M937 48h0"></path>
+<g>
+<path d="M550 48h0"></path>
+<path d="M752 48h0"></path>
+<path d="M550 48a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M570 28h162"></path>
+</g>
+<path d="M732 28a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M550 48h20"></path>
+<g>
+<path d="M570 48h0"></path>
+<path d="M732 48h0"></path>
+<g class="terminal">
+<path d="M570 48h0"></path>
+<path d="M641 48h0"></path>
+<rect x="570" y="37" width="71" height="22" rx="10" ry="10"></rect>
+<text x="605.5" y="52">"FROM"</text>
+</g>
+<path d="M641 48h10"></path>
+<path d="M651 48h10"></path>
+<g class="non-terminal">
+<path d="M661 48h0"></path>
+<path d="M732 48h0"></path>
+<rect x="661" y="37" width="71" height="22"></rect>
+<a xlink:href="#/expression/Source"><text x="696.5" y="52">Source</text>
+</a>
+</g>
+</g>
+<path d="M732 48h20"></path>
+</g>
+<g>
+<path d="M752 48h0"></path>
+<path d="M937 48h0"></path>
+<path d="M752 48a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M772 28h145"></path>
+</g>
+<path d="M917 28a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M752 48h20"></path>
+<g>
+<path d="M772 48h0"></path>
+<path d="M917 48h0"></path>
+<g class="terminal">
+<path d="M772 48h0"></path>
+<path d="M826 48h0"></path>
+<rect x="772" y="37" width="54" height="22" rx="10" ry="10"></rect>
+<text x="799" y="52">"TO"</text>
+</g>
+<path d="M826 48h10"></path>
+<path d="M836 48h10"></path>
+<g class="non-terminal">
+<path d="M846 48h0"></path>
+<path d="M917 48h0"></path>
+<rect x="846" y="37" width="71" height="22"></rect>
+<a xlink:href="#/expression/Source"><text x="881.5" y="52">Source</text>
+</a>
+</g>
+</g>
+<path d="M917 48h20"></path>
+</g>
+</g>
+<path d="M937 48h20"></path>
+</g>
+<g>
+<path d="M957 48h0"></path>
+<path d="M1142 48h0"></path>
+<path d="M957 48a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M977 28h145"></path>
+</g>
+<path d="M1122 28a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M957 48h20"></path>
+<g>
+<path d="M977 48h0"></path>
+<path d="M1122 48h0"></path>
+<g class="terminal">
+<path d="M977 48h0"></path>
+<path d="M1031 48h0"></path>
+<rect x="977" y="37" width="54" height="22" rx="10" ry="10"></rect>
+<text x="1004" y="52">"TO"</text>
+</g>
+<path d="M1031 48h10"></path>
+<path d="M1041 48h10"></path>
+<g class="non-terminal">
+<path d="M1051 48h0"></path>
+<path d="M1122 48h0"></path>
+<rect x="1051" y="37" width="71" height="22"></rect>
+<a xlink:href="#/expression/Target"><text x="1086.5" y="52">Target</text>
+</a>
+</g>
+</g>
+<path d="M1122 48h20"></path>
+</g>
+<g>
+<path d="M1142 48h0"></path>
+<path d="M1469 48h0"></path>
+<path d="M1142 48a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M1162 28h287"></path>
+</g>
+<path d="M1449 28a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M1142 48h20"></path>
+<g>
+<path d="M1162 48h0"></path>
+<path d="M1449 48h0"></path>
+<path d="M1162 48h20"></path>
+<g>
+<path d="M1182 48h0"></path>
+<path d="M1403.5 48h25.5"></path>
+<g class="terminal">
+<path d="M1182 48h0"></path>
+<path d="M1295.5 48h0"></path>
+<rect x="1182" y="37" width="113.5" height="22" rx="10" ry="10"></rect>
+<text x="1238.75" y="52">"ASSIGNING"</text>
+</g>
+<path d="M1295.5 48h10"></path>
+<path d="M1305.5 48h10"></path>
+<g class="non-terminal">
+<path d="M1315.5 48h0"></path>
+<path d="M1403.5 48h0"></path>
+<rect x="1315.5" y="37" width="88" height="22"></rect>
+<a xlink:href="#/expression/FSTarget"><text x="1359.5" y="52">FSTarget</text>
+</a>
+</g>
+</g>
+<path d="M1429 48h20"></path>
+<path d="M1162 48a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M1182 78h0"></path>
+<path d="M1429 78h0"></path>
+<g class="terminal">
+<path d="M1182 78h0"></path>
+<path d="M1338 78h0"></path>
+<rect x="1182" y="67" width="156" height="22" rx="10" ry="10"></rect>
+<text x="1260" y="82">"REFERENCE INTO"</text>
+</g>
+<path d="M1338 78h10"></path>
+<path d="M1348 78h10"></path>
+<g class="non-terminal">
+<path d="M1358 78h0"></path>
+<path d="M1429 78h0"></path>
+<rect x="1358" y="67" width="71" height="22"></rect>
+<a xlink:href="#/expression/Target"><text x="1393.5" y="82">Target</text>
+</a>
+</g>
+</g>
+<path d="M1429 78a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10"></path>
+</g>
+<path d="M1449 48h20"></path>
+</g>
+<g>
+<path d="M1469 48h0"></path>
+<path d="M1605.5 48h0"></path>
+<path d="M1469 48a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M1489 28h96.5"></path>
+</g>
+<path d="M1585.5 28a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M1469 48h20"></path>
+<g class="terminal">
+<path d="M1489 48h0"></path>
+<path d="M1585.5 48h0"></path>
+<rect x="1489" y="37" width="96.5" height="22" rx="10" ry="10"></rect>
+<text x="1537.25" y="52">"CASTING"</text>
+</g>
+<path d="M1585.5 48h20"></path>
+</g>
+<g>
+<path d="M1605.5 48h0"></path>
+<path d="M1841.5 48h0"></path>
+<path d="M1605.5 48a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M1625.5 28h196"></path>
+</g>
+<path d="M1821.5 28a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M1605.5 48h20"></path>
+<g>
+<path d="M1625.5 48h0"></path>
+<path d="M1821.5 48h0"></path>
+<g class="terminal">
+<path d="M1625.5 48h0"></path>
+<path d="M1739 48h0"></path>
+<rect x="1625.5" y="37" width="113.5" height="22" rx="10" ry="10"></rect>
+<text x="1682.25" y="52">"SORTED BY"</text>
+</g>
+<path d="M1739 48h10"></path>
+<path d="M1749 48h10"></path>
+<g class="non-terminal">
+<path d="M1759 48h0"></path>
+<path d="M1821.5 48h0"></path>
+<rect x="1759" y="37" width="62.5" height="22"></rect>
+<a xlink:href="#/expression/Field"><text x="1790.25" y="52">Field</text>
+</a>
+</g>
+</g>
+<path d="M1821.5 48h20"></path>
+</g>
+</g>
+<path d="M1841.5 48h10"></path>
+<path d="M 1851.5 48 h 20 m -10 -10 v 20 m 10 -20 v 20"></path>
+</g>
+</svg>

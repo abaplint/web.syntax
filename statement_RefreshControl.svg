@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="railroad-diagram" width="690" height="62" viewBox="0 0 690 62">
+<defs>
+<style type="text/css"><![CDATA[
+path {
+stroke-width: 3;
+stroke: black;
+fill: rgba(0,0,0,0);
+}
+text {
+font: bold 14px monospace;
+text-anchor: middle;
+}
+text.diagram-text {
+font-size: 12px;
+}
+a {
+fill: blue;
+}
+text.diagram-arrow {
+font-size: 16px;
+}
+text.label {
+text-anchor: start;
+}
+text.comment {
+font: italic 12px monospace;
+}
+rect {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+}
+path.diagram-text {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+cursor: help;
+}
+]]></style>
+</defs>
+<g transform="translate(.5 .5)">
+<g>
+<path d="M20 21v20m10 -20v20m-10 -10h20"></path>
+</g>
+<path d="M40 31h10"></path>
+<g>
+<path d="M50 31h0"></path>
+<path d="M640 31h0"></path>
+<g>
+<path d="M50 31h0"></path>
+<path d="M123 31h0"></path>
+<text x="86.5" y="36" class="comment">not Cloud</text>
+</g>
+<path d="M123 31h10"></path>
+<path d="M133 31h10"></path>
+<g>
+<path d="M143 31h0"></path>
+<path d="M640 31h0"></path>
+<g class="terminal">
+<path d="M143 31h0"></path>
+<path d="M307.5 31h0"></path>
+<rect x="143" y="20" width="164.5" height="22" rx="10" ry="10"></rect>
+<text x="225.25" y="35">"REFRESH CONTROL"</text>
+</g>
+<path d="M307.5 31h10"></path>
+<path d="M317.5 31h10"></path>
+<g class="non-terminal">
+<path d="M327.5 31h0"></path>
+<path d="M398.5 31h0"></path>
+<rect x="327.5" y="20" width="71" height="22"></rect>
+<a xlink:href="#/expression/Source"><text x="363" y="35">Source</text>
+</a>
+</g>
+<path d="M398.5 31h10"></path>
+<path d="M408.5 31h10"></path>
+<g class="terminal">
+<path d="M418.5 31h0"></path>
+<path d="M549 31h0"></path>
+<rect x="418.5" y="20" width="130.5" height="22" rx="10" ry="10"></rect>
+<text x="483.75" y="35">"FROM SCREEN"</text>
+</g>
+<path d="M549 31h10"></path>
+<path d="M559 31h10"></path>
+<g class="non-terminal">
+<path d="M569 31h0"></path>
+<path d="M640 31h0"></path>
+<rect x="569" y="20" width="71" height="22"></rect>
+<a xlink:href="#/expression/Source"><text x="604.5" y="35">Source</text>
+</a>
+</g>
+</g>
+</g>
+<path d="M640 31h10"></path>
+<path d="M 650 31 h 20 m -10 -10 v 20 m 10 -20 v 20"></path>
+</g>
+</svg>

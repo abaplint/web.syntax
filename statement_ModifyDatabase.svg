@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="railroad-diagram" width="735.5" height="131" viewBox="0 0 735.5 131">
+<defs>
+<style type="text/css"><![CDATA[
+path {
+stroke-width: 3;
+stroke: black;
+fill: rgba(0,0,0,0);
+}
+text {
+font: bold 14px monospace;
+text-anchor: middle;
+}
+text.diagram-text {
+font-size: 12px;
+}
+a {
+fill: blue;
+}
+text.diagram-arrow {
+font-size: 16px;
+}
+text.label {
+text-anchor: start;
+}
+text.comment {
+font: italic 12px monospace;
+}
+rect {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+}
+path.diagram-text {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+cursor: help;
+}
+]]></style>
+</defs>
+<g transform="translate(.5 .5)">
+<g>
+<path d="M20 21v20m10 -20v20m-10 -10h20"></path>
+</g>
+<path d="M40 31h10"></path>
+<g>
+<path d="M50 31h0"></path>
+<path d="M685.5 31h0"></path>
+<g class="terminal">
+<path d="M50 31h0"></path>
+<path d="M138 31h0"></path>
+<rect x="50" y="20" width="88" height="22" rx="10" ry="10"></rect>
+<text x="94" y="35">"MODIFY"</text>
+</g>
+<path d="M138 31h10"></path>
+<path d="M148 31h10"></path>
+<g class="non-terminal">
+<path d="M158 31h0"></path>
+<path d="M288.5 31h0"></path>
+<rect x="158" y="20" width="130.5" height="22"></rect>
+<a xlink:href="#/expression/DatabaseTable"><text x="223.25" y="35">DatabaseTable</text>
+</a>
+</g>
+<path d="M288.5 31h10"></path>
+<path d="M298.5 31h10"></path>
+<g>
+<path d="M308.5 31h0"></path>
+<path d="M685.5 31h0"></path>
+<path d="M338.5 31h10"></path>
+<g class="non-terminal">
+<path d="M348.5 31h0"></path>
+<path d="M521.5 31h134"></path>
+<rect x="348.5" y="20" width="173" height="22"></rect>
+<a xlink:href="#/expression/DatabaseConnection"><text x="435" y="35">DatabaseConnection</text>
+</a>
+</g>
+<path d="M655.5 31h10"></path>
+<path d="M338.5 31v29a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M348.5 70h0"></path>
+<path d="M655.5 70h0"></path>
+<g class="terminal">
+<path d="M348.5 70h0"></path>
+<path d="M419.5 70h0"></path>
+<rect x="348.5" y="59" width="71" height="22" rx="10" ry="10"></rect>
+<text x="384" y="74">"FROM"</text>
+</g>
+<path d="M419.5 70h10"></path>
+<g>
+<path d="M429.5 70h0"></path>
+<path d="M549 70h0"></path>
+<path d="M429.5 70a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M449.5 50h79.5"></path>
+</g>
+<path d="M529 50a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M429.5 70h20"></path>
+<g class="terminal">
+<path d="M449.5 70h0"></path>
+<path d="M529 70h0"></path>
+<rect x="449.5" y="59" width="79.5" height="22" rx="10" ry="10"></rect>
+<text x="489.25" y="74">"TABLE"</text>
+</g>
+<path d="M529 70h20"></path>
+</g>
+<path d="M549 70h10"></path>
+<g class="non-terminal">
+<path d="M559 70h0"></path>
+<path d="M655.5 70h0"></path>
+<rect x="559" y="59" width="96.5" height="22"></rect>
+<a xlink:href="#/expression/SQLSource"><text x="607.25" y="74">SQLSource</text>
+</a>
+</g>
+</g>
+<path d="M655.5 70a10 10 0 0 0 10 -10v-29"></path>
+<path d="M338.5 31v59a10 10 0 0 0 10 10"></path>
+<g class="terminal">
+<path d="M348.5 100h0"></path>
+<path d="M521.5 100h134"></path>
+<rect x="348.5" y="89" width="173" height="22" rx="10" ry="10"></rect>
+<text x="435" y="104">"CLIENT SPECIFIED"</text>
+</g>
+<path d="M655.5 100a10 10 0 0 0 10 -10v-59"></path>
+<g class="diagram-text">
+<title>take one or more branches, once each, in any order</title>
+<path d="M 338.5 21 h -26 a 4 4 0 0 0 -4 4 v 12 a 4 4 0 0 0 4 4 h 26 z" class="diagram-text"></path>
+<text x="323.5" y="35" class="diagram-text">1+</text>
+<path d="M 665.5 21 h 16 a 4 4 0 0 1 4 4 v 12 a 4 4 0 0 1 -4 4 h -16 z" class="diagram-text"></path>
+<path d="M 672.5 29 a 4 4 0 1 0 6 -1 m 2.75 -1 h -4 v 4 m 0 -3 h 2" style="stroke-width: 1.75"></path>
+</g>
+</g>
+</g>
+<path d="M685.5 31h10"></path>
+<path d="M 695.5 31 h 20 m -10 -10 v 20 m 10 -20 v 20"></path>
+</g>
+</svg>

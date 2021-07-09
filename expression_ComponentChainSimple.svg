@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="railroad-diagram" width="881.5" height="80" viewBox="0 0 881.5 80">
+<defs>
+<style type="text/css"><![CDATA[
+path {
+stroke-width: 3;
+stroke: black;
+fill: rgba(0,0,0,0);
+}
+text {
+font: bold 14px monospace;
+text-anchor: middle;
+}
+text.diagram-text {
+font-size: 12px;
+}
+a {
+fill: blue;
+}
+text.diagram-arrow {
+font-size: 16px;
+}
+text.label {
+text-anchor: start;
+}
+text.comment {
+font: italic 12px monospace;
+}
+rect {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+}
+path.diagram-text {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+cursor: help;
+}
+]]></style>
+</defs>
+<g transform="translate(.5 .5)">
+<g>
+<path d="M20 30v20m0 -10h20"></path>
+</g>
+<path d="M40 40h10"></path>
+<g>
+<path d="M50 40h0"></path>
+<path d="M831.5 40h0"></path>
+<g>
+<path d="M50 40h0"></path>
+<path d="M514.5 40h0"></path>
+<g class="non-terminal">
+<path d="M50 40h0"></path>
+<path d="M180.5 40h0"></path>
+<rect x="50" y="29" width="130.5" height="22"></rect>
+<a xlink:href="#/expression/ComponentName"><text x="115.25" y="44">ComponentName</text>
+</a>
+</g>
+<path d="M180.5 40h10"></path>
+<g>
+<path d="M190.5 40h0"></path>
+<path d="M514.5 40h0"></path>
+<path d="M190.5 40a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M210.5 20h284"></path>
+</g>
+<path d="M494.5 20a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M190.5 40h20"></path>
+<g>
+<path d="M210.5 40h0"></path>
+<path d="M494.5 40h0"></path>
+<path d="M210.5 40h10"></path>
+<g>
+<path d="M220.5 40h0"></path>
+<path d="M484.5 40h0"></path>
+<g class="non-terminal">
+<path d="M220.5 40h0"></path>
+<path d="M334 40h0"></path>
+<rect x="220.5" y="29" width="113.5" height="22"></rect>
+<a xlink:href="#/expression/ArrowOrDash"><text x="277.25" y="44">ArrowOrDash</text>
+</a>
+</g>
+<path d="M334 40h10"></path>
+<path d="M344 40h10"></path>
+<g class="non-terminal">
+<path d="M354 40h0"></path>
+<path d="M484.5 40h0"></path>
+<rect x="354" y="29" width="130.5" height="22"></rect>
+<a xlink:href="#/expression/ComponentName"><text x="419.25" y="44">ComponentName</text>
+</a>
+</g>
+</g>
+<path d="M484.5 40h10"></path>
+<path d="M220.5 40a10 10 0 0 0 -10 10v0a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M220.5 60h264"></path>
+</g>
+<path d="M484.5 60a10 10 0 0 0 10 -10v0a10 10 0 0 0 -10 -10"></path>
+</g>
+<path d="M494.5 40h20"></path>
+</g>
+</g>
+<path d="M514.5 40h10"></path>
+<g>
+<path d="M524.5 40h0"></path>
+<path d="M678 40h0"></path>
+<path d="M524.5 40a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M544.5 20h113.5"></path>
+</g>
+<path d="M658 20a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M524.5 40h20"></path>
+<g class="non-terminal">
+<path d="M544.5 40h0"></path>
+<path d="M658 40h0"></path>
+<rect x="544.5" y="29" width="113.5" height="22"></rect>
+<a xlink:href="#/expression/FieldOffset"><text x="601.25" y="44">FieldOffset</text>
+</a>
+</g>
+<path d="M658 40h20"></path>
+</g>
+<g>
+<path d="M678 40h0"></path>
+<path d="M831.5 40h0"></path>
+<path d="M678 40a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M698 20h113.5"></path>
+</g>
+<path d="M811.5 20a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M678 40h20"></path>
+<g class="non-terminal">
+<path d="M698 40h0"></path>
+<path d="M811.5 40h0"></path>
+<rect x="698" y="29" width="113.5" height="22"></rect>
+<a xlink:href="#/expression/FieldLength"><text x="754.75" y="44">FieldLength</text>
+</a>
+</g>
+<path d="M811.5 40h20"></path>
+</g>
+</g>
+<path d="M831.5 40h10"></path>
+<path d="M 841.5 40 h 20 m 0 -10 v 20"></path>
+</g>
+</svg>

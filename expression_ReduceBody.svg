@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="railroad-diagram" width="920.5" height="80" viewBox="0 0 920.5 80">
+<defs>
+<style type="text/css"><![CDATA[
+path {
+stroke-width: 3;
+stroke: black;
+fill: rgba(0,0,0,0);
+}
+text {
+font: bold 14px monospace;
+text-anchor: middle;
+}
+text.diagram-text {
+font-size: 12px;
+}
+a {
+fill: blue;
+}
+text.diagram-arrow {
+font-size: 16px;
+}
+text.label {
+text-anchor: start;
+}
+text.comment {
+font: italic 12px monospace;
+}
+rect {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+}
+path.diagram-text {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+cursor: help;
+}
+]]></style>
+</defs>
+<g transform="translate(.5 .5)">
+<g>
+<path d="M20 30v20m0 -10h20"></path>
+</g>
+<path d="M40 40h10"></path>
+<g>
+<path d="M50 40h0"></path>
+<path d="M870.5 40h0"></path>
+<g>
+<path d="M50 40h0"></path>
+<path d="M135.5 40h0"></path>
+<path d="M50 40a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M70 20h45.5"></path>
+</g>
+<path d="M115.5 20a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M50 40h20"></path>
+<g class="non-terminal">
+<path d="M70 40h0"></path>
+<path d="M115.5 40h0"></path>
+<rect x="70" y="29" width="45.5" height="22"></rect>
+<a xlink:href="#/expression/Let"><text x="92.75" y="44">Let</text>
+</a>
+</g>
+<path d="M115.5 40h20"></path>
+</g>
+<path d="M135.5 40h10"></path>
+<g>
+<path d="M145.5 40h0"></path>
+<path d="M455 40h0"></path>
+<g class="terminal">
+<path d="M145.5 40h0"></path>
+<path d="M216.5 40h0"></path>
+<rect x="145.5" y="29" width="71" height="22" rx="10" ry="10"></rect>
+<text x="181" y="44">"INIT"</text>
+</g>
+<path d="M216.5 40h10"></path>
+<path d="M226.5 40h10"></path>
+<g>
+<path d="M236.5 40h0"></path>
+<path d="M455 40h0"></path>
+<path d="M236.5 40h10"></path>
+<g class="non-terminal">
+<path d="M246.5 40h0"></path>
+<path d="M445 40h0"></path>
+<rect x="246.5" y="29" width="198.5" height="22"></rect>
+<a xlink:href="#/expression/InlineFieldDefinition"><text x="345.75" y="44">InlineFieldDefinition</text>
+</a>
+</g>
+<path d="M445 40h10"></path>
+<path d="M246.5 40a10 10 0 0 0 -10 10v0a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M246.5 60h198.5"></path>
+</g>
+<path d="M445 60a10 10 0 0 0 10 -10v0a10 10 0 0 0 -10 -10"></path>
+</g>
+</g>
+<path d="M455 40h10"></path>
+<path d="M465 40h10"></path>
+<g class="non-terminal">
+<path d="M475 40h0"></path>
+<path d="M520.5 40h0"></path>
+<rect x="475" y="29" width="45.5" height="22"></rect>
+<a xlink:href="#/expression/For"><text x="497.75" y="44">For</text>
+</a>
+</g>
+<path d="M520.5 40h10"></path>
+<path d="M530.5 40h10"></path>
+<g class="terminal">
+<path d="M540.5 40h0"></path>
+<path d="M611.5 40h0"></path>
+<rect x="540.5" y="29" width="71" height="22" rx="10" ry="10"></rect>
+<text x="576" y="44">"NEXT"</text>
+</g>
+<path d="M611.5 40h10"></path>
+<path d="M621.5 40h10"></path>
+<g>
+<path d="M631.5 40h0"></path>
+<path d="M870.5 40h0"></path>
+<path d="M631.5 40h10"></path>
+<g>
+<path d="M641.5 40h0"></path>
+<path d="M860.5 40h0"></path>
+<g class="non-terminal">
+<path d="M641.5 40h0"></path>
+<path d="M704 40h0"></path>
+<rect x="641.5" y="29" width="62.5" height="22"></rect>
+<a xlink:href="#/expression/Field"><text x="672.75" y="44">Field</text>
+</a>
+</g>
+<path d="M704 40h10"></path>
+<path d="M714 40h10"></path>
+<g class="terminal">
+<path d="M724 40h0"></path>
+<path d="M769.5 40h0"></path>
+<rect x="724" y="29" width="45.5" height="22" rx="10" ry="10"></rect>
+<text x="746.75" y="44">"="</text>
+</g>
+<path d="M769.5 40h10"></path>
+<path d="M779.5 40h10"></path>
+<g class="non-terminal">
+<path d="M789.5 40h0"></path>
+<path d="M860.5 40h0"></path>
+<rect x="789.5" y="29" width="71" height="22"></rect>
+<a xlink:href="#/expression/Source"><text x="825" y="44">Source</text>
+</a>
+</g>
+</g>
+<path d="M860.5 40h10"></path>
+<path d="M641.5 40a10 10 0 0 0 -10 10v0a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M641.5 60h219"></path>
+</g>
+<path d="M860.5 60a10 10 0 0 0 10 -10v0a10 10 0 0 0 -10 -10"></path>
+</g>
+</g>
+<path d="M870.5 40h10"></path>
+<path d="M 880.5 40 h 20 m 0 -10 v 20"></path>
+</g>
+</svg>

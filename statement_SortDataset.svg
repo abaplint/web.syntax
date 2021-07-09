@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="railroad-diagram" width="814.5" height="147" viewBox="0 0 814.5 147">
+<defs>
+<style type="text/css"><![CDATA[
+path {
+stroke-width: 3;
+stroke: black;
+fill: rgba(0,0,0,0);
+}
+text {
+font: bold 14px monospace;
+text-anchor: middle;
+}
+text.diagram-text {
+font-size: 12px;
+}
+a {
+fill: blue;
+}
+text.diagram-arrow {
+font-size: 16px;
+}
+text.label {
+text-anchor: start;
+}
+text.comment {
+font: italic 12px monospace;
+}
+rect {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+}
+path.diagram-text {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+cursor: help;
+}
+]]></style>
+</defs>
+<g transform="translate(.5 .5)">
+<g>
+<path d="M20 38v20m10 -20v20m-10 -10h20"></path>
+</g>
+<path d="M40 48h10"></path>
+<g>
+<path d="M50 48h0"></path>
+<path d="M764.5 48h0"></path>
+<g>
+<path d="M50 48h0"></path>
+<path d="M123 48h0"></path>
+<text x="86.5" y="53" class="comment">not Cloud</text>
+</g>
+<path d="M123 48h10"></path>
+<path d="M133 48h10"></path>
+<g>
+<path d="M143 48h0"></path>
+<path d="M764.5 48h0"></path>
+<g class="terminal">
+<path d="M143 48h0"></path>
+<path d="M214 48h0"></path>
+<rect x="143" y="37" width="71" height="22" rx="10" ry="10"></rect>
+<text x="178.5" y="52">"SORT"</text>
+</g>
+<path d="M214 48h10"></path>
+<g>
+<path d="M224 48h0"></path>
+<path d="M764.5 48h0"></path>
+<path d="M224 48a10 10 0 0 0 10 -10v-8a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M244 20h500.5"></path>
+</g>
+<path d="M744.5 20a10 10 0 0 1 10 10v8a10 10 0 0 0 10 10"></path>
+<path d="M224 48h20"></path>
+<g>
+<path d="M244 48h0"></path>
+<path d="M744.5 48h0"></path>
+<g class="terminal">
+<path d="M244 48h0"></path>
+<path d="M298 48h0"></path>
+<rect x="244" y="37" width="54" height="22" rx="10" ry="10"></rect>
+<text x="271" y="52">"BY"</text>
+</g>
+<path d="M298 48h10"></path>
+<path d="M308 48h10"></path>
+<g>
+<path d="M318 48h0"></path>
+<path d="M744.5 48h0"></path>
+<path d="M318 48h10"></path>
+<g>
+<path d="M328 48h0"></path>
+<path d="M734.5 48h0"></path>
+<g>
+<path d="M328 48h0"></path>
+<path d="M532.5 48h0"></path>
+<path d="M328 48h20"></path>
+<g class="non-terminal">
+<path d="M348 48h0"></path>
+<path d="M436 48h76.5"></path>
+<rect x="348" y="37" width="88" height="22"></rect>
+<a xlink:href="#/expression/FieldSub"><text x="392" y="52">FieldSub</text>
+</a>
+</g>
+<path d="M512.5 48h20"></path>
+<path d="M328 48a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10"></path>
+<g class="non-terminal">
+<path d="M348 78h0"></path>
+<path d="M512.5 78h0"></path>
+<rect x="348" y="67" width="164.5" height="22"></rect>
+<a xlink:href="#/expression/SourceFieldSymbol"><text x="430.25" y="82">SourceFieldSymbol</text>
+</a>
+</g>
+<path d="M512.5 78a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10"></path>
+<path d="M328 48a10 10 0 0 1 10 10v40a10 10 0 0 0 10 10"></path>
+<g class="non-terminal">
+<path d="M348 108h0"></path>
+<path d="M427.5 108h85"></path>
+<rect x="348" y="97" width="79.5" height="22"></rect>
+<a xlink:href="#/expression/Dynamic"><text x="387.75" y="112">Dynamic</text>
+</a>
+</g>
+<path d="M512.5 108a10 10 0 0 0 10 -10v-40a10 10 0 0 1 10 -10"></path>
+</g>
+<g>
+<path d="M532.5 48h0"></path>
+<path d="M734.5 48h0"></path>
+<path d="M532.5 48a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M552.5 28h162"></path>
+</g>
+<path d="M714.5 28a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M532.5 48h20"></path>
+<g>
+<path d="M552.5 48h0"></path>
+<path d="M714.5 48h0"></path>
+<path d="M552.5 48h20"></path>
+<g class="terminal">
+<path d="M572.5 48h0"></path>
+<path d="M686 48h8.5"></path>
+<rect x="572.5" y="37" width="113.5" height="22" rx="10" ry="10"></rect>
+<text x="629.25" y="52">"ASCENDING"</text>
+</g>
+<path d="M694.5 48h20"></path>
+<path d="M552.5 48a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10"></path>
+<g class="terminal">
+<path d="M572.5 78h0"></path>
+<path d="M694.5 78h0"></path>
+<rect x="572.5" y="67" width="122" height="22" rx="10" ry="10"></rect>
+<text x="633.5" y="82">"DESCENDING"</text>
+</g>
+<path d="M694.5 78a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10"></path>
+</g>
+<path d="M714.5 48h20"></path>
+</g>
+</g>
+<path d="M734.5 48h10"></path>
+<path d="M328 48a10 10 0 0 0 -10 10v59a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M328 127h406.5"></path>
+</g>
+<path d="M734.5 127a10 10 0 0 0 10 -10v-59a10 10 0 0 0 -10 -10"></path>
+</g>
+</g>
+<path d="M744.5 48h20"></path>
+</g>
+</g>
+</g>
+<path d="M764.5 48h10"></path>
+<path d="M 774.5 48 h 20 m -10 -10 v 20 m 10 -20 v 20"></path>
+</g>
+</svg>

@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="railroad-diagram" width="854" height="71" viewBox="0 0 854 71">
+<defs>
+<style type="text/css"><![CDATA[
+path {
+stroke-width: 3;
+stroke: black;
+fill: rgba(0,0,0,0);
+}
+text {
+font: bold 14px monospace;
+text-anchor: middle;
+}
+text.diagram-text {
+font-size: 12px;
+}
+a {
+fill: blue;
+}
+text.diagram-arrow {
+font-size: 16px;
+}
+text.label {
+text-anchor: start;
+}
+text.comment {
+font: italic 12px monospace;
+}
+rect {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+}
+path.diagram-text {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+cursor: help;
+}
+]]></style>
+</defs>
+<g transform="translate(.5 .5)">
+<g>
+<path d="M20 30v20m10 -20v20m-10 -10h20"></path>
+</g>
+<path d="M40 40h10"></path>
+<g>
+<path d="M50 40h0"></path>
+<path d="M804 40h0"></path>
+<g>
+<path d="M50 40h0"></path>
+<path d="M123 40h0"></path>
+<text x="86.5" y="45" class="comment">not Cloud</text>
+</g>
+<path d="M123 40h10"></path>
+<path d="M133 40h10"></path>
+<g>
+<path d="M143 40h0"></path>
+<path d="M804 40h0"></path>
+<g class="terminal">
+<path d="M143 40h0"></path>
+<path d="M256.5 40h0"></path>
+<rect x="143" y="29" width="113.5" height="22" rx="10" ry="10"></rect>
+<text x="199.75" y="44">"INFOTYPES"</text>
+</g>
+<path d="M256.5 40h10"></path>
+<path d="M266.5 40h10"></path>
+<g class="non-terminal">
+<path d="M276.5 40h0"></path>
+<path d="M364.5 40h0"></path>
+<rect x="276.5" y="29" width="88" height="22"></rect>
+<a xlink:href="#/expression/Constant"><text x="320.5" y="44">Constant</text>
+</a>
+</g>
+<path d="M364.5 40h10"></path>
+<g>
+<path d="M374.5 40h0"></path>
+<path d="M610.5 40h0"></path>
+<path d="M374.5 40a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M394.5 20h196"></path>
+</g>
+<path d="M590.5 20a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M374.5 40h20"></path>
+<g>
+<path d="M394.5 40h0"></path>
+<path d="M590.5 40h0"></path>
+<g class="terminal">
+<path d="M394.5 40h0"></path>
+<path d="M482.5 40h0"></path>
+<rect x="394.5" y="29" width="88" height="22" rx="10" ry="10"></rect>
+<text x="438.5" y="44">"OCCURS"</text>
+</g>
+<path d="M482.5 40h10"></path>
+<path d="M492.5 40h10"></path>
+<g class="non-terminal">
+<path d="M502.5 40h0"></path>
+<path d="M590.5 40h0"></path>
+<rect x="502.5" y="29" width="88" height="22"></rect>
+<a xlink:href="#/expression/Constant"><text x="546.5" y="44">Constant</text>
+</a>
+</g>
+</g>
+<path d="M590.5 40h20"></path>
+</g>
+<g>
+<path d="M610.5 40h0"></path>
+<path d="M804 40h0"></path>
+<path d="M610.5 40a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M630.5 20h153.5"></path>
+</g>
+<path d="M784 20a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M610.5 40h20"></path>
+<g>
+<path d="M630.5 40h0"></path>
+<path d="M784 40h0"></path>
+<g class="terminal">
+<path d="M630.5 40h0"></path>
+<path d="M701.5 40h0"></path>
+<rect x="630.5" y="29" width="71" height="22" rx="10" ry="10"></rect>
+<text x="666" y="44">"NAME"</text>
+</g>
+<path d="M701.5 40h10"></path>
+<path d="M711.5 40h10"></path>
+<g class="non-terminal">
+<path d="M721.5 40h0"></path>
+<path d="M784 40h0"></path>
+<rect x="721.5" y="29" width="62.5" height="22"></rect>
+<a xlink:href="#/expression/Field"><text x="752.75" y="44">Field</text>
+</a>
+</g>
+</g>
+<path d="M784 40h20"></path>
+</g>
+</g>
+</g>
+<path d="M804 40h10"></path>
+<path d="M 814 40 h 20 m -10 -10 v 20 m 10 -20 v 20"></path>
+</g>
+</svg>

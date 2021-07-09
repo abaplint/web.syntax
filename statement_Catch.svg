@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="railroad-diagram" width="715.5" height="80" viewBox="0 0 715.5 80">
+<defs>
+<style type="text/css"><![CDATA[
+path {
+stroke-width: 3;
+stroke: black;
+fill: rgba(0,0,0,0);
+}
+text {
+font: bold 14px monospace;
+text-anchor: middle;
+}
+text.diagram-text {
+font-size: 12px;
+}
+a {
+fill: blue;
+}
+text.diagram-arrow {
+font-size: 16px;
+}
+text.label {
+text-anchor: start;
+}
+text.comment {
+font: italic 12px monospace;
+}
+rect {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+}
+path.diagram-text {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+cursor: help;
+}
+]]></style>
+</defs>
+<g transform="translate(.5 .5)">
+<g>
+<path d="M20 30v20m10 -20v20m-10 -10h20"></path>
+</g>
+<path d="M40 40h10"></path>
+<g>
+<path d="M50 40h0"></path>
+<path d="M665.5 40h0"></path>
+<g class="terminal">
+<path d="M50 40h0"></path>
+<path d="M129.5 40h0"></path>
+<rect x="50" y="29" width="79.5" height="22" rx="10" ry="10"></rect>
+<text x="89.75" y="44">"CATCH"</text>
+</g>
+<path d="M129.5 40h10"></path>
+<g>
+<path d="M139.5 40h0"></path>
+<path d="M327 40h0"></path>
+<path d="M139.5 40a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M159.5 20h147.5"></path>
+</g>
+<path d="M307 20a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M139.5 40h20"></path>
+<g class="terminal">
+<path d="M159.5 40h0"></path>
+<path d="M307 40h0"></path>
+<rect x="159.5" y="29" width="147.5" height="22" rx="10" ry="10"></rect>
+<text x="233.25" y="44">"BEFORE UNWIND"</text>
+</g>
+<path d="M307 40h20"></path>
+</g>
+<path d="M327 40h10"></path>
+<g>
+<path d="M337 40h0"></path>
+<path d="M453.5 40h0"></path>
+<path d="M337 40h10"></path>
+<g class="non-terminal">
+<path d="M347 40h0"></path>
+<path d="M443.5 40h0"></path>
+<rect x="347" y="29" width="96.5" height="22"></rect>
+<a xlink:href="#/expression/ClassName"><text x="395.25" y="44">ClassName</text>
+</a>
+</g>
+<path d="M443.5 40h10"></path>
+<path d="M347 40a10 10 0 0 0 -10 10v0a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M347 60h96.5"></path>
+</g>
+<path d="M443.5 60a10 10 0 0 0 10 -10v0a10 10 0 0 0 -10 -10"></path>
+</g>
+<path d="M453.5 40h10"></path>
+<g>
+<path d="M463.5 40h0"></path>
+<path d="M665.5 40h0"></path>
+<path d="M463.5 40a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M483.5 20h162"></path>
+</g>
+<path d="M645.5 20a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M463.5 40h20"></path>
+<g>
+<path d="M483.5 40h0"></path>
+<path d="M645.5 40h0"></path>
+<g class="terminal">
+<path d="M483.5 40h0"></path>
+<path d="M554.5 40h0"></path>
+<rect x="483.5" y="29" width="71" height="22" rx="10" ry="10"></rect>
+<text x="519" y="44">"INTO"</text>
+</g>
+<path d="M554.5 40h10"></path>
+<path d="M564.5 40h10"></path>
+<g class="non-terminal">
+<path d="M574.5 40h0"></path>
+<path d="M645.5 40h0"></path>
+<rect x="574.5" y="29" width="71" height="22"></rect>
+<a xlink:href="#/expression/Target"><text x="610" y="44">Target</text>
+</a>
+</g>
+</g>
+<path d="M645.5 40h20"></path>
+</g>
+</g>
+<path d="M665.5 40h10"></path>
+<path d="M 675.5 40 h 20 m -10 -10 v 20 m 10 -20 v 20"></path>
+</g>
+</svg>

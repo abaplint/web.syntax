@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="railroad-diagram" width="886" height="71" viewBox="0 0 886 71">
+<defs>
+<style type="text/css"><![CDATA[
+path {
+stroke-width: 3;
+stroke: black;
+fill: rgba(0,0,0,0);
+}
+text {
+font: bold 14px monospace;
+text-anchor: middle;
+}
+text.diagram-text {
+font-size: 12px;
+}
+a {
+fill: blue;
+}
+text.diagram-arrow {
+font-size: 16px;
+}
+text.label {
+text-anchor: start;
+}
+text.comment {
+font: italic 12px monospace;
+}
+rect {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+}
+path.diagram-text {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+cursor: help;
+}
+]]></style>
+</defs>
+<g transform="translate(.5 .5)">
+<g>
+<path d="M20 30v20m10 -20v20m-10 -10h20"></path>
+</g>
+<path d="M40 40h10"></path>
+<g>
+<path d="M50 40h0"></path>
+<path d="M836 40h0"></path>
+<g class="terminal">
+<path d="M50 40h0"></path>
+<path d="M121 40h0"></path>
+<rect x="50" y="29" width="71" height="22" rx="10" ry="10"></rect>
+<text x="85.5" y="44">"FORM"</text>
+</g>
+<path d="M121 40h10"></path>
+<path d="M131 40h10"></path>
+<g class="non-terminal">
+<path d="M141 40h0"></path>
+<path d="M229 40h0"></path>
+<rect x="141" y="29" width="88" height="22"></rect>
+<a xlink:href="#/expression/FormName"><text x="185" y="44">FormName</text>
+</a>
+</g>
+<path d="M229 40h10"></path>
+<g>
+<path d="M239 40h0"></path>
+<path d="M384 40h0"></path>
+<path d="M239 40a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M259 20h105"></path>
+</g>
+<path d="M364 20a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M239 40h20"></path>
+<g class="non-terminal">
+<path d="M259 40h0"></path>
+<path d="M364 40h0"></path>
+<rect x="259" y="29" width="105" height="22"></rect>
+<a xlink:href="#/expression/FormTables"><text x="311.5" y="44">FormTables</text>
+</a>
+</g>
+<path d="M364 40h20"></path>
+</g>
+<g>
+<path d="M384 40h0"></path>
+<path d="M520.5 40h0"></path>
+<path d="M384 40a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M404 20h96.5"></path>
+</g>
+<path d="M500.5 20a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M384 40h20"></path>
+<g class="non-terminal">
+<path d="M404 40h0"></path>
+<path d="M500.5 40h0"></path>
+<rect x="404" y="29" width="96.5" height="22"></rect>
+<a xlink:href="#/expression/FormUsing"><text x="452.25" y="44">FormUsing</text>
+</a>
+</g>
+<path d="M500.5 40h20"></path>
+</g>
+<g>
+<path d="M520.5 40h0"></path>
+<path d="M682.5 40h0"></path>
+<path d="M520.5 40a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M540.5 20h122"></path>
+</g>
+<path d="M662.5 20a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M520.5 40h20"></path>
+<g class="non-terminal">
+<path d="M540.5 40h0"></path>
+<path d="M662.5 40h0"></path>
+<rect x="540.5" y="29" width="122" height="22"></rect>
+<a xlink:href="#/expression/FormChanging"><text x="601.5" y="44">FormChanging</text>
+</a>
+</g>
+<path d="M662.5 40h20"></path>
+</g>
+<g>
+<path d="M682.5 40h0"></path>
+<path d="M836 40h0"></path>
+<path d="M682.5 40a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path>
+<g>
+<path d="M702.5 20h113.5"></path>
+</g>
+<path d="M816 20a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path>
+<path d="M682.5 40h20"></path>
+<g class="non-terminal">
+<path d="M702.5 40h0"></path>
+<path d="M816 40h0"></path>
+<rect x="702.5" y="29" width="113.5" height="22"></rect>
+<a xlink:href="#/expression/FormRaising"><text x="759.25" y="44">FormRaising</text>
+</a>
+</g>
+<path d="M816 40h20"></path>
+</g>
+</g>
+<path d="M836 40h10"></path>
+<path d="M 846 40 h 20 m -10 -10 v 20 m 10 -20 v 20"></path>
+</g>
+</svg>

@@ -1,0 +1,245 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="railroad-diagram" width="982.5" height="182" viewBox="0 0 982.5 182">
+<defs>
+<style type="text/css"><![CDATA[
+path {
+stroke-width: 3;
+stroke: black;
+fill: rgba(0,0,0,0);
+}
+text {
+font: bold 14px monospace;
+text-anchor: middle;
+}
+text.diagram-text {
+font-size: 12px;
+}
+a {
+fill: blue;
+}
+text.diagram-arrow {
+font-size: 16px;
+}
+text.label {
+text-anchor: start;
+}
+text.comment {
+font: italic 12px monospace;
+}
+rect {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+}
+path.diagram-text {
+stroke-width: 3;
+stroke: black;
+fill: #BCBCBC;
+cursor: help;
+}
+]]></style>
+</defs>
+<g transform="translate(.5 .5)">
+<g>
+<path d="M20 21v20m0 -10h20"></path>
+</g>
+<g>
+<path d="M40 31h0"></path>
+<path d="M942.5 31h0"></path>
+<path d="M40 31h20"></path>
+<g>
+<path d="M60 31h0"></path>
+<path d="M362.5 31h560"></path>
+<g>
+<path d="M60 31h0"></path>
+<path d="M98 31h0"></path>
+<text x="79" y="36" class="comment">v754</text>
+</g>
+<path d="M98 31h10"></path>
+<path d="M108 31h10"></path>
+<g>
+<path d="M118 31h0"></path>
+<path d="M362.5 31h0"></path>
+<g class="terminal">
+<path d="M118 31h0"></path>
+<path d="M189 31h0"></path>
+<rect x="118" y="20" width="71" height="22" rx="10" ry="10"></rect>
+<text x="153.5" y="35">"UUID"</text>
+</g>
+<path d="M189 31h10"></path>
+<path d="M199 31h10"></path>
+<g class="terminal">
+<path d="M209 31h0"></path>
+<path d="M271.5 31h0"></path>
+<rect x="209" y="20" width="62.5" height="22" rx="10" ry="10"></rect>
+<text x="240.25" y="35">!"( "</text>
+</g>
+<path d="M271.5 31h10"></path>
+<path d="M281.5 31h10"></path>
+<g class="terminal">
+<path d="M291.5 31h0"></path>
+<path d="M362.5 31h0"></path>
+<rect x="291.5" y="20" width="71" height="22" rx="10" ry="10"></rect>
+<text x="327" y="35">!" ) "</text>
+</g>
+</g>
+</g>
+<path d="M922.5 31h20"></path>
+<path d="M40 31a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M60 61h0"></path>
+<path d="M524.5 61h398"></path>
+<g>
+<path d="M60 61h0"></path>
+<path d="M98 61h0"></path>
+<text x="79" y="66" class="comment">v751</text>
+</g>
+<path d="M98 61h10"></path>
+<path d="M108 61h10"></path>
+<g>
+<path d="M118 61h0"></path>
+<path d="M524.5 61h0"></path>
+<g class="terminal">
+<path d="M118 61h0"></path>
+<path d="M180.5 61h0"></path>
+<rect x="118" y="50" width="62.5" height="22" rx="10" ry="10"></rect>
+<text x="149.25" y="65">"ABS"</text>
+</g>
+<path d="M180.5 61h10"></path>
+<path d="M190.5 61h10"></path>
+<g class="terminal">
+<path d="M200.5 61h0"></path>
+<path d="M263 61h0"></path>
+<rect x="200.5" y="50" width="62.5" height="22" rx="10" ry="10"></rect>
+<text x="231.75" y="65">!"( "</text>
+</g>
+<path d="M263 61h10"></path>
+<g>
+<path d="M273 61h0"></path>
+<path d="M443.5 61h0"></path>
+<path d="M273 61h20"></path>
+<g class="non-terminal">
+<path d="M293 61h0"></path>
+<path d="M415 61h8.5"></path>
+<rect x="293" y="50" width="122" height="22"></rect>
+<a xlink:href="#/expression/SQLFieldName"><text x="354" y="65">SQLFieldName</text>
+</a>
+</g>
+<path d="M423.5 61h20"></path>
+<path d="M273 61a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10"></path>
+<g class="non-terminal">
+<path d="M293 91h0"></path>
+<path d="M423.5 91h0"></path>
+<rect x="293" y="80" width="130.5" height="22"></rect>
+<a xlink:href="#/expression/SQLAliasField"><text x="358.25" y="95">SQLAliasField</text>
+</a>
+</g>
+<path d="M423.5 91a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10"></path>
+</g>
+<path d="M443.5 61h10"></path>
+<g class="terminal">
+<path d="M453.5 61h0"></path>
+<path d="M524.5 61h0"></path>
+<rect x="453.5" y="50" width="71" height="22" rx="10" ry="10"></rect>
+<text x="489" y="65">!" ) "</text>
+</g>
+</g>
+</g>
+<path d="M922.5 61a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10"></path>
+<path d="M40 31a10 10 0 0 1 10 10v70a10 10 0 0 0 10 10"></path>
+<g>
+<path d="M60 121h0"></path>
+<path d="M922.5 121h0"></path>
+<g>
+<path d="M60 121h0"></path>
+<path d="M98 121h0"></path>
+<text x="79" y="126" class="comment">v750</text>
+</g>
+<path d="M98 121h10"></path>
+<path d="M108 121h10"></path>
+<g>
+<path d="M118 121h0"></path>
+<path d="M922.5 121h0"></path>
+<g class="terminal">
+<path d="M118 121h0"></path>
+<path d="M189 121h0"></path>
+<rect x="118" y="110" width="71" height="22" rx="10" ry="10"></rect>
+<text x="153.5" y="125">"CAST"</text>
+</g>
+<path d="M189 121h10"></path>
+<path d="M199 121h10"></path>
+<g class="terminal">
+<path d="M209 121h0"></path>
+<path d="M271.5 121h0"></path>
+<rect x="209" y="110" width="62.5" height="22" rx="10" ry="10"></rect>
+<text x="240.25" y="125">!"( "</text>
+</g>
+<path d="M271.5 121h10"></path>
+<g>
+<path d="M281.5 121h0"></path>
+<path d="M452 121h0"></path>
+<path d="M281.5 121h20"></path>
+<g class="non-terminal">
+<path d="M301.5 121h0"></path>
+<path d="M423.5 121h8.5"></path>
+<rect x="301.5" y="110" width="122" height="22"></rect>
+<a xlink:href="#/expression/SQLFieldName"><text x="362.5" y="125">SQLFieldName</text>
+</a>
+</g>
+<path d="M432 121h20"></path>
+<path d="M281.5 121a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10"></path>
+<g class="non-terminal">
+<path d="M301.5 151h0"></path>
+<path d="M432 151h0"></path>
+<rect x="301.5" y="140" width="130.5" height="22"></rect>
+<a xlink:href="#/expression/SQLAliasField"><text x="366.75" y="155">SQLAliasField</text>
+</a>
+</g>
+<path d="M432 151a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10"></path>
+</g>
+<path d="M452 121h10"></path>
+<g class="terminal">
+<path d="M462 121h0"></path>
+<path d="M558.5 121h0"></path>
+<rect x="462" y="110" width="96.5" height="22" rx="10" ry="10"></rect>
+<text x="510.25" y="125">"AS CHAR"</text>
+</g>
+<path d="M558.5 121h10"></path>
+<path d="M568.5 121h10"></path>
+<g class="terminal">
+<path d="M578.5 121h0"></path>
+<path d="M641 121h0"></path>
+<rect x="578.5" y="110" width="62.5" height="22" rx="10" ry="10"></rect>
+<text x="609.75" y="125">!"( "</text>
+</g>
+<path d="M641 121h10"></path>
+<path d="M651 121h10"></path>
+<g class="non-terminal">
+<path d="M661 121h0"></path>
+<path d="M740.5 121h0"></path>
+<rect x="661" y="110" width="79.5" height="22"></rect>
+<a xlink:href="#/expression/Integer"><text x="700.75" y="125">Integer</text>
+</a>
+</g>
+<path d="M740.5 121h10"></path>
+<path d="M750.5 121h10"></path>
+<g class="terminal">
+<path d="M760.5 121h0"></path>
+<path d="M831.5 121h0"></path>
+<rect x="760.5" y="110" width="71" height="22" rx="10" ry="10"></rect>
+<text x="796" y="125">!" ) "</text>
+</g>
+<path d="M831.5 121h10"></path>
+<path d="M841.5 121h10"></path>
+<g class="terminal">
+<path d="M851.5 121h0"></path>
+<path d="M922.5 121h0"></path>
+<rect x="851.5" y="110" width="71" height="22" rx="10" ry="10"></rect>
+<text x="887" y="125">!" ) "</text>
+</g>
+</g>
+</g>
+<path d="M922.5 121a10 10 0 0 0 10 -10v-70a10 10 0 0 1 10 -10"></path>
+</g>
+<path d="M 942.5 31 h 20 m 0 -10 v 20"></path>
+</g>
+</svg>
